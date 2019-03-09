@@ -1,0 +1,1431 @@
+﻿Log file open, 03/08/19 20:35:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LifeSimulator
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.208031
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +4:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.080s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-4350 Quad-Core Processor            , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:764][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.08-16.35.13:764][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.08-16.35.13:765][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.08-16.35.13:765][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:765][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:768][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:768][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.08-16.35.13:768][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.08-16.35.13:768][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:768][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.08-16.35.13:768][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:768][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.08-16.35.13:768][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.08-16.35.13:769][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.08-16.35.13:770][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.08-16.35.13:770][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.08-16.35.13:770][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.08-16.35.13:784][  0]LogHAL: Display: Platform has ~ 8 GB [8587366400 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.08-16.35.13:784][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.08-16.35.13:784][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.08-16.35.13:784][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:784][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2019.03.08-16.35.13:784][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2019.03.08-16.35.13:784][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2019.03.08-16.35.13:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Scalability.ini]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.08-16.35.13:786][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.08-16.35.13:786][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/UE_PROJECTS/LifeSimulator/Saved/Config/Windows/Engine.ini]
+[2019.03.08-16.35.13:787][  0]LogInit: Computer: DESKTOP-6CA0J82
+[2019.03.08-16.35.13:787][  0]LogInit: User: UD
+[2019.03.08-16.35.13:787][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.08-16.35.13:787][  0]LogInit: High frequency timer resolution =3.145889 MHz
+[2019.03.08-16.35.13:787][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.03.08-16.35.13:787][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.08-16.35.13:787][  0]LogMemory: Process Physical Memory: 102.25 MB used, 102.25 MB peak
+[2019.03.08-16.35.13:787][  0]LogMemory: Process Virtual Memory: 84.76 MB used, 84.76 MB peak
+[2019.03.08-16.35.13:787][  0]LogMemory: Physical Memory: 4889.28 MB used,  3300.27 MB free, 8189.55 MB total
+[2019.03.08-16.35.13:787][  0]LogMemory: Virtual Memory: 4629.13 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.03.08-16.35.13:811][  0]LogInit: Using OS detected language (ru-RU).
+[2019.03.08-16.35.13:811][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.03.08-16.35.13:812][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.03.08-16.35.13:815][  0]LogStreaming: Display: Took  0.004s to InitEngineTextLocalization.
+[2019.03.08-16.35.13:815][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.08-16.35.13:859][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.08-16.35.13:859][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.08-16.35.14:181][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.08-16.35.14:181][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.08-16.35.14:286][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.08-16.35.14:286][  0]LogD3D11RHI:       4018/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.08-16.35.14:290][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.08-16.35.14:290][  0]LogD3D11RHI:       0/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.08-16.35.14:290][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.08-16.35.14:301][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.08-16.35.14:302][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.08-16.35.14:302][  0]LogWindows: EnumDisplayDevices:
+[2019.03.08-16.35.14:302][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.08-16.35.14:302][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.08-16.35.14:302][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.08-16.35.14:303][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.08-16.35.14:303][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.08-16.35.14:303][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.08-16.35.14:303][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
+[2019.03.08-16.35.14:303][  0]LogD3D11RHI:      Driver Date: 3-1-2019
+[2019.03.08-16.35.14:303][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.08-16.35.14:374][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.08-16.35.14:396][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.08-16.35.14:963][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.08-16.35.14:988][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.08-16.35.15:017][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.08-16.35.15:041][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.08-16.35.15:065][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.08-16.35.15:090][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.08-16.35.15:112][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.08-16.35.15:135][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.08-16.35.15:144][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:281][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-16.35.15:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.08-16.35.15:363][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.08-16.35.15:363][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.08-16.35.15:404][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.08-16.35.15:404][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.08-16.35.15:425][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.08-16.35.15:446][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.08-16.35.15:469][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.08-16.35.15:490][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.08-16.35.15:570][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.08-16.35.15:570][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.08-16.35.15:570][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.08-16.35.15:633][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../UE_PROJECTS/LifeSimulator/Intermediate/Shaders/WorkingDirectory/9484/).
+[2019.03.08-16.35.15:633][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/UD/AppData/Local/Temp/UnrealShaderWorkingDir/6633E212438052B3EA8FA2946A8B4B55/'.
+[2019.03.08-16.35.15:636][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.08-16.35.15:636][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.08-16.35.15:636][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.08-16.35.16:640][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.08-16.35.16:740][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/UD/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.08-16.35.16:740][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/UD/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.08-16.35.16:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE_PROJECTS/LifeSimulator/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.08-16.35.16:740][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.08-16.35.16:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE_PROJECTS/LifeSimulator/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.08-16.35.16:740][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.08-16.35.16:761][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.08-16.35.16:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.08-16.35.16:761][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.08-16.35.16:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/UD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.08-16.35.16:774][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.08-16.35.16:774][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.08-16.35.16:818][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.08-16.35.16:821][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.08-16.35.16:821][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.08-16.35.16:950][  0]LogAssetRegistry: FAssetRegistry took 0.0470 seconds to start up
+[2019.03.08-16.35.17:560][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.08-16.35.17:655][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.08-16.35.17:659][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.08-16.35.17:659][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.08-16.35.17:659][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.08-16.35.17:659][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.08-16.35.17:814][  0]LogNetVersion: LifeSimulator 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1770999446)
+[2019.03.08-16.35.18:494][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.072830 seconds
+[2019.03.08-16.35.18:502][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.08-16.35.18:502][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.03.08-16.35.18:502][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.08-16.35.19:641][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.08-16.35.19:655][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.08-16.35.20:593][  0]SourceControl: Source control is disabled
+[2019.03.08-16.35.20:593][  0]SourceControl: Source control is disabled
+[2019.03.08-16.35.20:595][  0]SourceControl: Source control is disabled
+[2019.03.08-16.35.20:596][  0]SourceControl: Source control is disabled
+[2019.03.08-16.35.20:776][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.08-16.35.20:852][  0]LogOcInput: OculusInput pre-init called
+[2019.03.08-16.35.21:011][  0]LogEngine: Initializing Engine...
+[2019.03.08-16.35.21:012][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.08-16.35.21:013][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.08-16.35.21:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.08-16.35.21:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.08-16.35.21:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.08-16.35.21:348][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.08-16.35.21:367][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.08-16.35.21:388][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.35.21:408][  0]LogInit: FAudioDevice initialized.
+[2019.03.08-16.35.21:408][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.08-16.35.21:582][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/UD/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.08-16.35.21:590][  0]LogInit: Texture streaming: Enabled
+[2019.03.08-16.35.21:610][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.08-16.35.21:625][  0]LogInit: Transaction tracking system initialized
+[2019.03.08-16.35.21:648][  0]BlueprintLog: New page: Editor Load
+[2019.03.08-16.35.21:725][  0]LocalizationService: Localization service is disabled
+[2019.03.08-16.35.22:935][  0]LogFileCache: Scanning file cache for directory 'E:/UE_PROJECTS/LifeSimulator/Content/' took 0.01s
+[2019.03.08-16.35.22:935][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.08-16.35.22:935][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.08-16.35.22:936][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.08-16.35.22:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.08-16.35.22:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.08-16.35.22:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.08-16.35.22:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.08-16.35.23:116][  0]SourceControl: Source control is disabled
+[2019.03.08-16.35.23:116][  0]Cmd: MAP LOAD FILE="../../../../UE_PROJECTS/LifeSimulator/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.08-16.35.23:117][  0]LightingResults: New page: Lighting Build
+[2019.03.08-16.35.23:120][  0]MapCheck: New page: Map Check
+[2019.03.08-16.35.23:120][  0]LightingResults: New page: Lighting Build
+[2019.03.08-16.35.23:564][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.35.23:574][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.08-16.35.23:617][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.08-16.35.23:617][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,137ms to complete.
+[2019.03.08-16.35.23:617][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.501
+[2019.03.08-16.35.23:741][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.35.23:754][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.35.23:765][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.35.23:778][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.35.23:785][  0]LogCollectionManager: Loaded 0 collections in 0.001378 seconds
+[2019.03.08-16.35.23:802][  0]LogFileCache: Scanning file cache for directory 'E:/UE_PROJECTS/LifeSimulator/Saved/Collections/' took 0.01s
+[2019.03.08-16.35.23:802][  0]LogFileCache: Scanning file cache for directory 'E:/UE_PROJECTS/LifeSimulator/Content/Developers/UD/Collections/' took 0.00s
+[2019.03.08-16.35.23:802][  0]LogFileCache: Scanning file cache for directory 'E:/UE_PROJECTS/LifeSimulator/Content/Collections/' took 0.00s
+[2019.03.08-16.35.23:802][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.08-16.35.23:820][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2651 classes and 620 folders.
+[2019.03.08-16.35.23:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.08-16.35.23:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.08-16.35.23:886][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.08-16.35.23:895][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.08-16.35.23:917][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.08-16.35.23:923][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.08-16.35.23:933][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.08-16.35.24:068][  0]LogRenderer: Reallocating scene render targets to support 1208x660 Format 9 NumSamples 1 (Frame:1).
+[2019.03.08-16.35.24:138][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.08-16.35.24:271][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.08-16.35.24:271][  0]LogLoad: (Engine Initialization) Total time: 12.61 seconds
+[2019.03.08-16.35.24:271][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.08-16.35.24:283][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.08-16.35.24:361][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.03.08-16.35.24:427][  1]LogRenderer: Reallocating scene render targets to support 1208x676 Format 9 NumSamples 1 (Frame:3).
+[2019.03.08-16.35.24:687][  3]LogAssetRegistry: Asset discovery search completed in 7.7593 seconds
+[2019.03.08-16.35.24:690][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.08-16.35.24:690][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2019.03.08-16.35.25:308][ 67]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.08-16.35.26:218][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-16.35.26:413][169]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FishOne_Blueprint.FishOne_Blueprint
+[2019.03.08-16.35.27:159][169]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2019.03.08-16.35.28:446][169]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.08-16.35.31:861][521]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.08-16.39.22:955][498]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.39.25:497][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FishOne_Blueprint" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset" SILENT=true
+[2019.03.08-16.39.25:660][723]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/FishOne_BlueprintF20837DB42C4166EA764E696A51A18B6.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset'
+[2019.03.08-16.39.27:404][918]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.08-16.39.27:430][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.39.27:431][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-16.39.27:441][918]PIE: New page: PIE session: Minimal_Default (9 марта 2019 г., 0:39:27)
+[2019.03.08-16.39.27:465][918]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.08-16.39.27:473][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008059s)
+[2019.03.08-16.39.27:474][918]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.39.27:475][918]LogPlayLevel: PIE: World Init took: (0.001435s)
+[2019.03.08-16.39.27:475][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009892s)
+[2019.03.08-16.39.27:542][918]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.39.27:556][918]LogInit: FAudioDevice initialized.
+[2019.03.08-16.39.27:626][918]LogLoad: Game class is 'GameModeBase'
+[2019.03.08-16.39.27:635][918]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.08-20.39.27
+[2019.03.08-16.39.27:635][918]LogWorld: Bringing up level for play took: 0.001160
+[2019.03.08-16.39.27:707][918]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.03.08-16.39.27:708][918]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,691
+[2019.03.08-16.39.27:708][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.39.32:737][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.39.32:737][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.39.32:777][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-16.39.32:778][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.39.32:828][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.39.32:856][465]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.08-16.40.00:692][617]LogAssetEditorManager: Opening Asset editor for Material /Game/M_Fish.M_Fish
+[2019.03.08-16.40.00:699][617]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.40.01:155][617]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.40.01:180][617]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.40.01:202][617]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.40.01:202][617]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.40.01:202][617]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.40.01:230][617]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.08-16.40.02:360][673]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.40.02:506][682]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.40.02:983][712]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.40.03:386][740]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.40.03:474][745]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.40.03:668][760]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.40.03:994][785]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.40.03:995][785]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.40.04:154][797]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.40.04:957][856]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.40.05:374][880]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.40.05:451][888]LogSlate: Window 'M_Fish' being destroyed
+[2019.03.08-16.40.05:491][892]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.40.06:429][993]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.40.06:526][  4]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.40.06:904][ 47]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.40.07:844][145]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.40.08:038][167]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.40.08:106][175]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.08-16.40.08:698][239]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.40.08:820][253]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.40.21:107][695]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.03.08-16.40.21:107][695]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.03.08-16.40.21:107][695]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.40.21:107][695]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.42.59:088][298]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.43.07:784][281]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.07:808][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.03.08-16.43.07:816][281]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.07:816][281]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.07:816][281]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.07:821][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.03.08-16.43.07:873][281]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.07:932][281]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.03.08-16.43.08:781][371]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.43.08:832][375]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.43.09:604][463]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.09:637][467]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.09:802][486]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.10:148][525]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.10:209][532]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.43.10:483][563]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.43.10:720][589]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.43.10:896][609]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.43.11:083][630]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.43.11:396][666]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.43.12:369][776]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.43.12:504][791]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.43.12:779][823]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.43.13:489][898]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.13:601][901]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.43.13:802][924]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.43.14:156][964]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.14:635][ 17]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.14:698][ 24]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.15:018][ 60]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.15:389][102]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.43.15:450][109]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.43.15:715][139]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.43.16:073][179]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.43.16:117][184]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.43.16:372][213]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.43.16:529][231]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.43.16:600][238]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.16:623][238]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.17:570][341]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.17:709][357]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.17:941][384]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.18:238][415]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.18:309][416]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.18:310][416]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.18:612][449]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.19:010][491]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.19:084][492]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.19:085][492]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.19:286][514]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.19:818][575]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.19:958][591]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.43.20:178][616]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.43.20:449][647]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.43.20:597][664]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.43.20:734][680]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.43.21:004][711]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.43.21:145][727]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.43.21:345][750]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.43.21:622][779]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.21:654][779]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.03.08-16.43.22:204][831]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.43.22:454][859]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.43.22:738][892]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.22:995][920]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.23:149][937]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.23:680][997]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.23:680][997]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.43.23:988][ 31]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.43.24:519][ 89]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.43.24:536][ 91]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.43.24:628][101]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.43.25:046][147]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.43.25:737][224]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.43.25:822][234]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.43.25:968][251]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.43.26:641][324]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.43.26:905][354]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.43.26:934][357]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.43.27:833][456]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.43.28:360][515]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.43.28:678][551]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.08-16.43.29:273][617]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.43.29:655][659]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.43.30:012][698]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.03.08-16.43.30:012][698]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 177 instructions
+[2019.03.08-16.43.30:012][698]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.43.30:014][698]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.43.32:415][981]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.32:439][981]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.32:440][981]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.32:440][981]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.32:445][981]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.03.08-16.43.33:244][ 66]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.33:263][ 68]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.33:379][ 81]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.33:859][135]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.43.33:895][139]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.43.34:216][175]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.43.34:408][197]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.43.34:593][218]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.43.34:953][259]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.43.35:931][368]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.43.36:120][389]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.43.36:253][404]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.43.37:041][491]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.43.37:250][515]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.43.37:555][549]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.43.38:276][627]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.43.38:510][654]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.43.38:594][660]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.38:619][660]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.43.38:626][660]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.43.38:643][660]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.43.38:695][660]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.43.38:757][660]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.43.39:557][737]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.08-16.43.39:630][745]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.43.39:709][754]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.43.40:330][822]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.43.40:379][827]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.43.40:388][828]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.43.40:831][879]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.43.40:848][881]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.43.40:935][891]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.43.41:441][946]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.43.41:461][948]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.43.41:538][956]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.43.42:046][ 13]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.43.42:709][ 86]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.43.42:743][ 90]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.43.42:764][ 92]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.43.43:651][190]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.43.44:476][280]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.43.44:488][281]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.43.45:175][357]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.43.45:175][357]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.43.46:083][456]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.08-16.43.46:530][506]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.43.46:598][513]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.43.46:868][542]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.03.08-16.43.46:868][542]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.03.08-16.43.46:868][542]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.43.46:869][542]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.44.25:703][905]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.25:740][905]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.44.25:740][905]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.44.25:740][905]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.44.25:755][905]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.26:304][953]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.26:717][987]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.44.26:717][987]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.44.27:110][ 27]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.27:271][ 33]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.44.27:476][ 55]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.44.27:993][109]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.44.28:205][133]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.44.28:292][143]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.44.28:595][177]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.44.28:683][186]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.44.28:825][202]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.44.29:106][232]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.44.29:167][239]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.44.29:296][253]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.44.29:714][300]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.44.30:765][410]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.44.31:031][433]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.44.31:239][455]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.44.31:667][499]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.31:702][499]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.31:739][499]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.32:382][564]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.44.32:902][622]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.44.33:036][637]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.44.33:818][721]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.44.33:962][734]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.34:025][738]LogMaterialEditor: Saving and Compiling material M_Fish
+[2019.03.08-16.44.35:005][738]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.44.35:006][738]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.44.35:006][738]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.44.35:006][738]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.44.35:006][738]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.44.35:040][738]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.35:132][738]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.44.35:132][738]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.44.35:161][738]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.35:196][738]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.35:219][738]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.44.35:294][738]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fish, compiling. 
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.08-16.44.38:087][738]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.44.38:088][738]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.44.38:093][738]TextureStreamingBuild: Display: Compiling optional shaders took 2.811 seconds.
+[2019.03.08-16.44.41:845][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Fish" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/M_Fish.uasset" SILENT=true
+[2019.03.08-16.44.41:864][738]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/M_FishF8EF42834A009E30D4B32FB231D01841.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/M_Fish.uasset'
+[2019.03.08-16.44.41:880][738]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.03.08-16.44.41:880][738]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.03.08-16.44.41:880][738]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.44.41:880][738]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.44.58:378][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:395][696]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.44.58:395][696]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.44.58:412][696]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:434][696]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.44.58:443][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:479][696]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:518][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:555][696]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:592][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:629][696]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:683][697]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:720][697]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:754][697]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.44.58:759][697]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:795][697]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:829][697]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.44.58:834][697]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:870][697]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:895][697]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.44.58:909][697]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.58:945][697]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.58:984][697]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.59:021][697]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.59:542][742]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.59:580][742]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.44.59:581][742]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.59:617][742]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.59:653][742]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.44.59:654][742]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.44.59:679][742]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.44.59:691][742]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.44.59:727][742]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.00:405][796]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.45.00:626][818]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.45.00:669][822]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.01:565][911]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.45.01:640][919]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.45.01:747][931]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.45.01:787][934]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.01:822][934]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.01:862][934]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.01:899][934]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.01:927][934]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.08-16.45.02:308][975]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.45.02:309][975]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.45.02:341][978]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.03:189][ 71]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.45.03:200][ 72]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.45.03:629][116]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.45.04:185][179]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.45.04:292][191]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.45.04:319][194]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.45.05:098][273]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.45.05:109][274]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.45.05:251][288]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.45.05:675][329]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.45.05:696][331]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.45.06:799][439]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.45.07:056][466]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.45.07:084][468]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.07:116][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.07:155][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.07:192][468]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.07:231][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.07:251][468]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.07:268][468]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.07:307][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.07:344][468]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.07:383][468]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.07:420][468]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.07:759][489]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.45.07:815][495]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.45.08:040][519]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.08:074][519]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.08:115][519]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.08:134][519]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.08:151][519]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.08:190][519]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.08:227][519]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.08:265][519]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.08:303][519]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.08:341][519]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.08:342][519]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.08:378][519]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.08:466][524]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.45.08:725][548]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.45.09:329][609]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.09:417][617]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.09:453][617]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.09:491][617]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.09:492][617]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.45.09:511][617]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.45.09:528][617]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.09:555][617]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.08-16.45.09:999][659]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.45.10:386][702]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.45.10:387][702]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.11:194][791]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.45.11:194][791]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.45.11:357][809]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.45.12:145][894]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.45.12:145][894]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.45.12:193][899]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.45.12:796][967]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.45.12:806][968]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.45.12:871][975]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.45.13:327][ 23]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.45.13:620][ 54]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.45.14:600][160]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.45.14:703][171]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.45.15:043][208]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.45.15:879][299]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.45.16:259][342]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.45.16:296][346]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.45.16:880][409]LogMaterialEditor: Saving and Compiling material M_Fish
+[2019.03.08-16.45.17:808][409]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.08-16.45.17:808][409]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.45.17:808][409]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.45.17:838][409]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.17:929][409]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.45.17:929][409]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.45.17:929][409]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.45.17:942][409]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.17:972][409]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.45.18:068][409]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fish, compiling. 
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.08-16.45.20:707][409]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.45.20:708][409]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.45.20:711][409]TextureStreamingBuild: Display: Compiling optional shaders took 2.654 seconds.
+[2019.03.08-16.45.24:409][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Fish" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/M_Fish.uasset" SILENT=true
+[2019.03.08-16.45.24:429][409]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/M_Fish32242513449C01B199D0AF9E7B93344A.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/M_Fish.uasset'
+[2019.03.08-16.45.24:442][409]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.03.08-16.45.24:442][409]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.03.08-16.45.24:442][409]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.45.24:442][409]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.46.04:052][ 39]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.04:078][ 39]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.46.04:078][ 39]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.46.04:078][ 39]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.46.04:078][ 39]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.46.04:113][ 39]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.05:063][140]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.46.05:161][150]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.46.06:119][255]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.46.06:119][255]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.46.06:265][272]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.46.06:934][347]LogEditorTransaction: Undo Edit R
+[2019.03.08-16.46.06:941][347]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.06:984][347]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.46.06:985][347]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.46.06:990][347]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.07:028][347]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.46.07:047][347]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.46.07:665][395]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.46.07:684][397]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.46.07:896][421]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.46.08:592][497]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.46.08:676][506]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.46.08:686][507]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.46.09:312][574]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.46.09:321][575]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.46.09:487][593]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.46.09:882][636]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.46.10:060][656]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.46.10:997][758]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.46.11:007][759]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.46.11:708][835]LogMaterialEditor: Saving and Compiling material M_Fish
+[2019.03.08-16.46.12:651][835]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.46.12:651][835]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.46.12:651][835]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.46.12:651][835]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.46.12:651][835]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.46.12:682][835]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.12:792][835]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.12:823][835]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.46.12:924][835]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fish, compiling. 
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.08-16.46.16:136][835]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.46.16:137][835]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.46.16:141][835]TextureStreamingBuild: Display: Compiling optional shaders took 3.229 seconds.
+[2019.03.08-16.46.19:742][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Fish" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/M_Fish.uasset" SILENT=true
+[2019.03.08-16.46.19:761][835]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/M_Fish181AC28B4F81741405171C8D7A699EF4.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/M_Fish.uasset'
+[2019.03.08-16.46.19:777][835]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.03.08-16.46.19:777][835]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.03.08-16.46.19:777][835]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.46.19:777][835]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.46.29:144][940]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.46.30:934][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FishOne_Blueprint" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset" SILENT=true
+[2019.03.08-16.46.31:090][ 94]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/FishOne_BlueprintC21ED1AD45DF0615A52FB38CAD3E72D4.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset'
+[2019.03.08-16.46.34:229][446]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.08-16.46.34:256][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.34:256][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-16.46.34:256][446]PIE: New page: PIE session: Minimal_Default (9 марта 2019 г., 0:46:34)
+[2019.03.08-16.46.34:256][446]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.08-16.46.34:262][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005998s)
+[2019.03.08-16.46.34:263][446]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.46.34:264][446]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2019.03.08-16.46.34:264][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007418s)
+[2019.03.08-16.46.34:326][446]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.46.34:340][446]LogInit: FAudioDevice initialized.
+[2019.03.08-16.46.34:371][446]LogLoad: Game class is 'GameModeBase'
+[2019.03.08-16.46.34:373][446]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.08-20.46.34
+[2019.03.08-16.46.34:373][446]LogWorld: Bringing up level for play took: 0.001349
+[2019.03.08-16.46.34:386][446]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0,63
+[2019.03.08-16.46.34:387][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.39:319][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.39:319][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.46.39:359][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-16.46.39:360][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.39:421][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.46.39:458][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.03.08-16.46.40:202][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-16.46.50:495][322]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.46.51:413][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FishOne_Blueprint" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset" SILENT=true
+[2019.03.08-16.46.51:564][373]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/FishOne_Blueprint394FF01247ADF70BD5A589B4A9AFE275.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset'
+[2019.03.08-16.46.53:259][566]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.08-16.46.53:285][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.53:285][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-16.46.53:285][566]PIE: New page: PIE session: Minimal_Default (9 марта 2019 г., 0:46:53)
+[2019.03.08-16.46.53:285][566]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.08-16.46.53:291][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006198s)
+[2019.03.08-16.46.53:292][566]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.46.53:292][566]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2019.03.08-16.46.53:292][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007248s)
+[2019.03.08-16.46.53:350][566]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.46.53:365][566]LogInit: FAudioDevice initialized.
+[2019.03.08-16.46.53:398][566]LogLoad: Game class is 'GameModeBase'
+[2019.03.08-16.46.53:399][566]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.08-20.46.53
+[2019.03.08-16.46.53:400][566]LogWorld: Bringing up level for play took: 0.001197
+[2019.03.08-16.46.53:414][566]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,397
+[2019.03.08-16.46.53:414][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.57:571][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.57:571][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.46.57:614][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-16.46.57:615][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.46.57:667][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.46.57:694][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.03.08-16.47.08:983][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:000][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.09:000][374]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.47.09:018][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:043][374]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.09:056][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:092][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:130][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:165][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:203][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:237][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:276][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:311][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:350][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:386][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:425][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:461][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:500][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:539][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:576][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:613][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:651][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:670][374]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.09:686][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:713][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.09:725][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:761][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:799][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:835][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:874][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:895][374]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.09:911][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.09:950][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.09:987][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:025][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:063][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:091][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.10:100][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:136][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:175][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:211][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:250][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:269][374]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.10:269][374]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.47.10:286][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:324][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:359][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:399][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:437][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:475][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:511][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:549][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:569][374]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.10:586][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:624][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:644][374]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.10:660][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:686][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.10:700][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:736][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:775][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:811][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:850][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:886][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.10:912][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.10:926][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.10:963][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:001][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:039][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:078][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:097][374]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.11:114][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:148][374]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.11:153][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:189][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:228][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:265][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:304][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:340][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:379][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:415][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:440][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.11:454][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:492][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:518][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.11:528][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:565][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:604][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:640][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:665][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.11:678][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:714][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:752][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:789][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:827][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:864][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:903][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.11:936][374]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.11:942][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.11:979][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.12:016][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.12:055][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.12:093][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.12:119][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.12:130][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.12:166][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.12:205][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.12:242][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.12:242][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.12:275][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.12:308][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.12:348][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.12:384][374]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.12:411][374]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.12:987][418]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.47.13:166][434]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.13:426][462]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.47.14:102][531]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.47.14:175][538]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.47.14:479][568]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.47.14:863][607]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.47.14:984][619]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.15:003][619]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.47.15:021][619]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.15:080][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.15:111][622]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.15:116][622]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.15:150][622]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.15:182][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.15:223][622]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.15:243][622]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.15:261][622]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.15:325][625]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.15:715][659]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.47.16:097][700]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.16:484][741]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.47.16:758][770]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.47.17:029][799]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.47.17:499][849]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.47.17:754][877]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.47.17:823][884]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.47.18:300][936]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.47.18:506][958]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.47.18:553][963]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.47.18:860][997]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.47.19:173][ 31]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.47.20:130][131]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.47.20:230][142]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.47.20:718][195]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.47.21:826][311]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.47.21:837][312]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.47.21:959][324]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.47.22:884][417]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.08-16.47.23:533][482]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.23:784][508]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.47.24:733][603]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.24:755][603]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.24:755][603]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.47.24:765][603]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.24:799][603]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.24:805][603]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.08-16.47.24:841][603]LogMaterial: Display: Missing cached shader map for material M_Fish, compiling. 
+[2019.03.08-16.47.24:868][603]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.08-16.47.25:604][681]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.08-16.47.25:605][681]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.08-16.47.25:668][688]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-16.47.26:236][752]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.08-16.47.26:312][761]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.08-16.47.26:448][777]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.08-16.47.26:797][817]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.08-16.47.26:835][821]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.08-16.47.26:846][822]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.08-16.47.27:221][862]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.08-16.47.27:271][868]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.08-16.47.27:280][869]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.08-16.47.27:529][898]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-16.47.27:693][917]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.08-16.47.28:204][976]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.08-16.47.28:291][986]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.08-16.47.28:465][  6]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.08-16.47.29:012][ 69]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.08-16.47.29:062][ 75]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.08-16.47.29:314][103]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.08-16.47.29:843][162]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.08-16.47.30:101][192]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.08-16.47.30:295][214]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-16.47.32:539][477]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.03.08-16.47.32:539][477]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.03.08-16.47.32:539][477]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.08-16.47.32:539][477]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.08-16.48.10:785][  9]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.48.14:956][441]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.08-16.48.14:984][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.14:984][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-16.48.14:984][441]PIE: New page: PIE session: Minimal_Default (9 марта 2019 г., 0:48:14)
+[2019.03.08-16.48.14:984][441]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.08-16.48.14:990][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006398s)
+[2019.03.08-16.48.14:991][441]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.48.14:991][441]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2019.03.08-16.48.14:991][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007387s)
+[2019.03.08-16.48.15:055][441]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.48.15:069][441]LogInit: FAudioDevice initialized.
+[2019.03.08-16.48.15:104][441]LogLoad: Game class is 'GameModeBase'
+[2019.03.08-16.48.15:106][441]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.08-20.48.15
+[2019.03.08-16.48.15:106][441]LogWorld: Bringing up level for play took: 0.001075
+[2019.03.08-16.48.15:119][441]LogBlueprintUserMessages: [FishOne_Blueprint2] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.15:119][441]LogBlueprintUserMessages: [FishOne_Blueprint3] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.15:119][441]LogBlueprintUserMessages: [FishOne_Blueprint7] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.15:119][441]LogBlueprintUserMessages: [FishOne_Blueprint8] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.15:120][441]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,103
+[2019.03.08-16.48.15:120][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.20:766][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.20:767][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.48.20:805][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-16.48.20:806][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.20:861][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.48.20:890][102]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.08-16.48.21:969][222]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.08-16.48.21:982][222]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.21:982][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-16.48.21:983][222]PIE: New page: PIE session: Minimal_Default (9 марта 2019 г., 0:48:21)
+[2019.03.08-16.48.21:983][222]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.08-16.48.21:989][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006144s)
+[2019.03.08-16.48.21:990][222]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.48.21:990][222]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.03.08-16.48.21:990][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007171s)
+[2019.03.08-16.48.22:051][222]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.48.22:064][222]LogInit: FAudioDevice initialized.
+[2019.03.08-16.48.22:096][222]LogLoad: Game class is 'GameModeBase'
+[2019.03.08-16.48.22:097][222]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.08-20.48.22
+[2019.03.08-16.48.22:097][222]LogWorld: Bringing up level for play took: 0.001077
+[2019.03.08-16.48.22:110][222]LogBlueprintUserMessages: [FishOne_Blueprint2] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.22:110][222]LogBlueprintUserMessages: [FishOne_Blueprint3] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.22:110][222]LogBlueprintUserMessages: [FishOne_Blueprint7] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.22:110][222]LogBlueprintUserMessages: [FishOne_Blueprint8] (R=0.390000,G=0.915165,B=1.000000,A=1.000000)
+[2019.03.08-16.48.22:111][222]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1,094
+[2019.03.08-16.48.22:111][222]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.48:695][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.48:695][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.48.48:739][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-16.48.48:740][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.48.48:791][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.48.48:865][350]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.03.08-16.49.22:628][375]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.49.25:119][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FishOne_Blueprint" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset" SILENT=true
+[2019.03.08-16.49.25:272][614]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/FishOne_Blueprint5B7F2D454FE8C780A275669E2A726C04.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset'
+[2019.03.08-16.49.27:138][822]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.08-16.49.27:164][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.49.27:165][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-16.49.27:165][822]PIE: New page: PIE session: Minimal_Default (9 марта 2019 г., 0:49:27)
+[2019.03.08-16.49.27:165][822]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.08-16.49.27:171][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006256s)
+[2019.03.08-16.49.27:172][822]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.08-16.49.27:172][822]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2019.03.08-16.49.27:172][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007260s)
+[2019.03.08-16.49.27:234][822]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-16.49.27:247][822]LogInit: FAudioDevice initialized.
+[2019.03.08-16.49.27:281][822]LogLoad: Game class is 'GameModeBase'
+[2019.03.08-16.49.27:283][822]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.08-20.49.27
+[2019.03.08-16.49.27:283][822]LogWorld: Bringing up level for play took: 0.001070
+[2019.03.08-16.49.27:296][822]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,28
+[2019.03.08-16.49.27:297][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.49.31:659][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.49.31:660][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.49.31:702][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-16.49.31:703][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.08-16.49.31:761][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-16.49.31:789][339]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.08-16.49.49:693][399]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.49.50:545][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FishOne_Blueprint" FILE="../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset" SILENT=true
+[2019.03.08-16.49.50:701][440]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/FishOne_Blueprint3F6C132C4D2A755844439D9C26D30FCF.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Content/FishOne_Blueprint.uasset'
+[2019.03.08-16.50.40:745][403]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.50.47:016][ 90]LogSlate: Took 0.029523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.08-16.50.56:983][276]BlueprintLog: New page: Compile FishOne_Blueprint
+[2019.03.08-16.51.34:553][620]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.08-16.51.34:553][620]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.08-16.51.38:853][136]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.03.08-16.51.40:630][136]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.777 s
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: 
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: Ensure condition failed: !InputKeys.Contains(Key) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\InputCore\Private\InputCoreTypes.cpp] [Line: 718]
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: Adding duplicate key 'UnknownCharCode_1101'
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: Stack: 
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc50e96e8 UE4Editor-InputCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc50ed5e5 UE4Editor-InputCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffd82989b99 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc287dc35 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc2870de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc28801eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc286ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdcc6d6d41 USER32.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdcc6d6713 USER32.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ffdc2881746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.08-16.51.40:630][136]LogOutputDevice: Error: [Callstack] 0x00007ff7b0dc5546 UE4Editor.exe!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: [Callstack] 0x00007ff7b0dd596c UE4Editor.exe!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: [Callstack] 0x00007ff7b0dd59ea UE4Editor.exe!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: [Callstack] 0x00007ff7b0de48da UE4Editor.exe!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: [Callstack] 0x00007ff7b0de659a UE4Editor.exe!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: [Callstack] 0x00007ffdcdf53dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: [Callstack] 0x00007ffdceec3691 ntdll.dll!UnknownFunction []
+[2019.03.08-16.51.40:631][136]LogOutputDevice: Error: 
+[2019.03.08-16.51.40:635][136]LogStats:                SubmitErrorReport -  0.000 s
