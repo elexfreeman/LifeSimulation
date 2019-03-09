@@ -7,6 +7,8 @@ UE4 life simulator
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/elexfreeman/LifeSimulation/master/Screens/2019-03-09_15-49-20.png)
 
+https://www.youtube.com/watch?v=r9CNKk6nFK8
+
 ## Параметры организма
 * Name - Имя уникальный идентификатор
 * Parent - родитель
