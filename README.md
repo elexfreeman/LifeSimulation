@@ -5,6 +5,8 @@ UE4 life simulator
 
 Разные ветки - разные эксперементы
 
+![Image of Yaktocat](https://raw.githubusercontent.com/elexfreeman/LifeSimulation/master/Screens/2019-03-09_15-49-20.png)
+
 ## Параметры организма
 * Name - Имя уникальный идентификатор
 * Parent - родитель
