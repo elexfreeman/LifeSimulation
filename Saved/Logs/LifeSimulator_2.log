@@ -570,3 +570,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.09-11.29.06:492][678]LogUObjectGlobals: Warning: Failed to find object 'Class None.SIOJJsonObject'
 [2019.03.09-11.30.20:438][773]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2019.03.09-11.30.20:438][773]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.09-11.38.35:674][637]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/Minimal_Default_Auto126745ABD407DAB3D91D4BA900412A671.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.03.09-11.38.35:736][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.023
+[2019.03.09-11.38.35:736][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.023
+[2019.03.09-11.38.35:741][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FishOne_Blueprint] ([1] browsable assets)...
+[2019.03.09-11.38.35:785][637]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FishOne_Blueprint.FishOne_Blueprint]
+[2019.03.09-11.38.35:785][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/FishOne_Blueprint]
+[2019.03.09-11.38.35:785][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FishOne_Blueprint" FILE="../../../../UE_PROJECTS/LifeSimulator/Saved/Autosaves/Game/FishOne_Blueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.09-11.38.36:110][637]LogSavePackage: Moving '../../../../UE_PROJECTS/LifeSimulator/Saved/FishOne_Blueprint_Auto14C1986D74658F43C67C1BFAE13779805.tmp' to '../../../../UE_PROJECTS/LifeSimulator/Saved/Autosaves/Game/FishOne_Blueprint_Auto1.uasset'
+[2019.03.09-11.38.36:111][637]LogFileHelpers: Auto-saving content packages took 0.371
+[2019.03.09-11.42.49:559][ 39]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.09-11.42.49:559][ 39]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
