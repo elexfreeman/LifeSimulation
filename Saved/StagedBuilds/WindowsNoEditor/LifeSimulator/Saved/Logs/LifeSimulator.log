@@ -1,4 +1,4 @@
-﻿Log file open, 03/09/19 14:26:34
+﻿Log file open, 03/09/19 19:55:42
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -6,11 +6,10 @@ LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
-LogInit: Display: Running engine for game: LifeSimulator
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.168619
+LogStats: Stats thread started at 0.147220
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -29,6 +28,7 @@ LogPluginManager: Mounting plugin BackChannel
 LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin SocketIOClient
 LogPluginManager: Mounting plugin AvfMedia
 LogPluginManager: Mounting plugin ImgMedia
 LogPluginManager: Mounting plugin LinearTimecode
@@ -39,7 +39,6 @@ LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
 LogPluginManager: Mounting plugin NetcodeUnitTest
-LogPluginManager: Mounting plugin NUTUnrealEngine4
 LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin OnlineSubsystemNull
 LogPluginManager: Mounting plugin OnlineSubsystemUtils
@@ -60,7 +59,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.045s to configure plugins.
+LogStreaming: Display: Took  0.039s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -90,7 +89,7 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
 LogInit: Command Line: 
-LogInit: Base Directory: E:/UE_PROJECTS/LifeSimulator/Saved/StagedBuilds/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Base Directory: E:/UE_PROJECTS/LifeSimulator/Saved/StagedBuilds/WindowsNoEditor/LifeSimulator/Binaries/Win64/
 LogInit: Installed Engine Build: 0
 LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -115,889 +114,473 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
-[2019.03.09-10.26.34:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.09-10.26.34:746][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.09-10.26.34:747][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
-[2019.03.09-10.26.34:752][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.09-10.26.34:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.09-10.26.34:753][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.09-10.26.34:754][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.09-10.26.34:755][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.09-10.26.34:755][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2019.03.09-10.26.34:755][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
-[2019.03.09-10.26.34:765][  0]LogHAL: Display: Platform has ~ 8 GB [8587366400 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.09-10.26.34:765][  0]LogInit: Going up to parent DeviceProfile [Windows]
-[2019.03.09-10.26.34:765][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.09-10.26.34:765][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.09-10.26.34:765][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.09-10.26.34:766][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.09-10.26.34:767][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.09-10.26.34:768][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.09-10.26.34:768][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
-[2019.03.09-10.26.34:769][  0]LogInit: Computer: DESKTOP-6CA0J82
-[2019.03.09-10.26.34:769][  0]LogInit: User: UD
-[2019.03.09-10.26.34:769][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.03.09-10.26.34:769][  0]LogInit: High frequency timer resolution =3.145889 MHz
-[2019.03.09-10.26.34:769][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2019.03.09-10.26.34:769][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
-[2019.03.09-10.26.34:769][  0]LogMemory: Process Physical Memory: 53.96 MB used, 53.96 MB peak
-[2019.03.09-10.26.34:769][  0]LogMemory: Process Virtual Memory: 63.20 MB used, 63.20 MB peak
-[2019.03.09-10.26.34:769][  0]LogMemory: Physical Memory: 6893.67 MB used,  1295.88 MB free, 8189.55 MB total
-[2019.03.09-10.26.34:769][  0]LogMemory: Virtual Memory: 4433.12 MB used,  134213296.00 MB free, 134217728.00 MB total
-[2019.03.09-10.26.34:797][  0]LogInit: Using OS detected language (ru-RU).
-[2019.03.09-10.26.34:797][  0]LogInit: Using OS detected locale (ru-RU).
-[2019.03.09-10.26.34:798][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2019.03.09-10.26.34:798][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2019.03.09-10.26.34:840][  0]LogStreaming: Display: Took  0.042s to InitEngineTextLocalization.
-[2019.03.09-10.26.34:872][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.09-10.26.34:872][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.09-10.26.34:878][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.09-10.26.34:878][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.09-10.26.34:986][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2019.03.09-10.26.34:986][  0]LogD3D11RHI:       4018/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.09-10.26.34:989][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.09-10.26.34:989][  0]LogD3D11RHI:       0/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.09-10.26.34:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.09-10.26.35:009][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.09-10.26.35:009][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.09-10.26.35:009][  0]LogWindows: EnumDisplayDevices:
-[2019.03.09-10.26.35:009][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2019.03.09-10.26.35:010][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.03.09-10.26.35:010][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.03.09-10.26.35:010][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.03.09-10.26.35:011][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.03.09-10.26.35:011][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2019.03.09-10.26.35:011][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
-[2019.03.09-10.26.35:011][  0]LogD3D11RHI:      Driver Date: 3-1-2019
-[2019.03.09-10.26.35:011][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2019.03.09-10.26.35:096][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.09-10.26.35:128][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.09-10.26.35:181][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global and no native library supported.
-[2019.03.09-10.26.35:181][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global_SC and no native library supported.
-[2019.03.09-10.26.35:181][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
-[2019.03.09-10.26.35:181][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
-[2019.03.09-10.26.35:181][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
-[2019.03.09-10.26.35:181][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
-[2019.03.09-10.26.35:182][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
-[2019.03.09-10.26.35:183][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
-[2019.03.09-10.26.35:184][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
-[2019.03.09-10.26.35:217][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.09-10.26.35:242][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.09-10.26.35:243][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.09-10.26.35:352][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator and no native library supported.
-[2019.03.09-10.26.35:353][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator_SC and no native library supported.
-[2019.03.09-10.26.35:353][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2019.03.09-10.26.35:353][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator and no native library supported.
-[2019.03.09-10.26.35:353][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator_SC and no native library supported.
-[2019.03.09-10.26.35:353][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2019.03.09-10.26.35:353][  0]LogRHI: Display: Failed to open default shader pipeline cache for LifeSimulator using shader platform 0.
-[2019.03.09-10.26.35:353][  0]LogRHI: Display: Failed to open default shader pipeline cache for LifeSimulator using shader platform 0.
-[2019.03.09-10.26.35:353][  0]LogInit: Using OS detected language (ru-RU).
-[2019.03.09-10.26.35:353][  0]LogInit: Using OS detected locale (ru-RU).
-[2019.03.09-10.26.35:353][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2019.03.09-10.26.35:353][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2019.03.09-10.26.35:354][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
-[2019.03.09-10.26.35:380][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2019.03.09-10.26.35:597][  0]LogStreaming: Display: Flushing async loaders.
-[2019.03.09-10.26.35:612][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.014280 seconds
-[2019.03.09-10.26.35:614][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2019.03.09-10.26.35:636][  0]LogNetVersion: LifeSimulator 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1770999446)
-[2019.03.09-10.26.35:905][  0]LogMoviePlayer: Initializing movie player
-[2019.03.09-10.26.35:994][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.09-10.26.35:994][  0]LogOcInput: OculusInput pre-init called
-[2019.03.09-10.26.36:003][  0]LogUObjectArray: 34975 objects as part of root set at end of initial load.
-[2019.03.09-10.26.36:003][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
-[2019.03.09-10.26.36:003][  0]LogUObjectAllocator: 5223472 out of 0 bytes used by permanent object pool.
-[2019.03.09-10.26.36:003][  0]LogUObjectArray: CloseDisregardForGC: 34975/34975 objects in disregard for GC pool
-[2019.03.09-10.26.36:081][  0]LogEngine: Initializing Engine...
-[2019.03.09-10.26.36:081][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.09-10.26.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.09-10.26.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.09-10.26.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.09-10.26.36:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.09-10.26.36:325][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.09-10.26.36:350][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.09-10.26.36:378][  0]LogInit: FAudioDevice initialized.
-[2019.03.09-10.26.36:390][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.09-10.26.36:390][  0]LogInit: Texture streaming: Enabled
-[2019.03.09-10.26.36:394][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.09-10.26.36:395][  0]LogInit: Display: Game Engine Initialized.
-[2019.03.09-10.26.36:395][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.09-10.26.36:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.09-10.26.36:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.09-10.26.36:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.09-10.26.36:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.09-10.26.36:416][  0]LogInit: Display: Starting Game.
-[2019.03.09-10.26.36:416][  0]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Name=Player
-[2019.03.09-10.26.36:547][  0]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default?Name=Player
-[2019.03.09-10.26.36:608][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2019.03.09-10.26.36:609][  0]LogLoad: Game class is 'GameModeBase'
-[2019.03.09-10.26.36:611][  0]LogWorld: Bringing World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.09-14.26.36
-[2019.03.09-10.26.36:612][  0]LogWorld: Bringing up level for play took: 0.002644
-[2019.03.09-10.26.36:616][  0]LogLoad: Took 0.068789 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
-[2019.03.09-10.26.36:651][  0]LogLoad: (Engine Initialization) Total time: 3.43 seconds
-[2019.03.09-10.26.36:654][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
-[2019.03.09-10.26.36:756][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.09-10.26.47:856][654]LogBlueprintUserMessages: [FishOne_Blueprint10] 90
-[2019.03.09-10.26.47:857][654]LogBlueprintUserMessages: [FishOne_Blueprint11] 90
-[2019.03.09-10.26.47:858][654]LogBlueprintUserMessages: [FishOne_Blueprint12] 90
-[2019.03.09-10.26.47:858][654]LogBlueprintUserMessages: [FishOne_Blueprint13] 90
-[2019.03.09-10.26.47:859][654]LogBlueprintUserMessages: [FishOne_Blueprint2] 90
-[2019.03.09-10.26.47:859][654]LogBlueprintUserMessages: [FishOne_Blueprint3] 90
-[2019.03.09-10.26.47:860][654]LogBlueprintUserMessages: [FishOne_Blueprint7] 90
-[2019.03.09-10.26.47:861][654]LogBlueprintUserMessages: [FishOne_Blueprint8] 90
-[2019.03.09-10.26.47:861][654]LogBlueprintUserMessages: [FishOne_Blueprint9] 90
-[2019.03.09-10.26.47:865][654]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
-[2019.03.09-10.26.53:767][689]LogBlueprintUserMessages: [FishOne_Blueprint_C_6] 120
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:0013
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:010F
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:013B
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Accessed None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:0150
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.26.53:783][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone:0013
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone:004B
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0013
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:005B
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:00A7
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to assign to None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:00BC
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:010E
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0139
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to assign to None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:014E
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0158
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:784][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:018A
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Attempted to access EnergyColorMesh via property EnergyColorMesh, but EnergyColorMesh is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0017
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0072
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Attempted to access FishOne_Blueprint3 via property mySelf, but FishOne_Blueprint3 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:00AD
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Accessed None trying to read property CallFunc_CreateDynamicMaterialInstance_ReturnValue
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint3
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0130
-[2019.03.09-10.26.53:785][690]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.26.54:765][749]LogBlueprintUserMessages: [FishOne_Blueprint_C_9] 120
-[2019.03.09-10.27.02:335][916]LogAudio: Warning: Waited 50.597778ms for audio thread.
-[2019.03.09-10.27.08:167][262]LogBlueprintUserMessages: [FishOne_Blueprint_C_1] 90
-[2019.03.09-10.27.08:168][262]LogBlueprintUserMessages: [FishOne_Blueprint_C_4] 90
-[2019.03.09-10.27.08:169][262]LogBlueprintUserMessages: [FishOne_Blueprint_C_5] 150
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:0013
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:010F
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:013B
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Accessed None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:0150
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone:0013
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone:004B
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0013
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:005B
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:608][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:00A7
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to assign to None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:00BC
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:010E
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0139
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to assign to None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:014E
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0158
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:018A
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to access EnergyColorMesh via property EnergyColorMesh, but EnergyColorMesh is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0017
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0072
-[2019.03.09-10.27.12:609][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.12:610][525]LogScript: Warning: Attempted to access FishOne_Blueprint7 via property mySelf, but FishOne_Blueprint7 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:00AD
-[2019.03.09-10.27.12:610][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.12:610][525]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.12:610][525]LogScript: Warning: Accessed None trying to read property CallFunc_CreateDynamicMaterialInstance_ReturnValue
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint7
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0130
-[2019.03.09-10.27.12:610][525]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:0013
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:010F
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:013B
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Accessed None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving:0150
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doMoving
-
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone:0013
-[2019.03.09-10.27.17:245][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone:004B
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:doSelfClone
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0013
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:005B
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:00A7
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to assign to None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:00BC
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:010E
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0139
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to assign to None
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:014E
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:246][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:0158
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick:018A
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:energyTick
-
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Attempted to access EnergyColorMesh via property EnergyColorMesh, but EnergyColorMesh is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0017
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0072
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Attempted to access FishOne_Blueprint_C_6 via property mySelf, but FishOne_Blueprint_C_6 is pending kill
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:00AD
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Accessed None trying to read property CallFunc_CreateDynamicMaterialInstance_ReturnValue
-	FishOne_Blueprint_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FishOne_Blueprint_C_6
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor:0130
-[2019.03.09-10.27.17:247][801]LogScript: Warning: Script call stack:
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ExecuteUbergraph_FishOne_Blueprint
-	Function /Game/FishOne_Blueprint.FishOne_Blueprint_C:ChangeFishEnergyColor
-
-[2019.03.09-10.27.18:259][862]LogBlueprintUserMessages: [FishOne_Blueprint_C_0] 90
-[2019.03.09-10.27.18:260][862]LogBlueprintUserMessages: [FishOne_Blueprint_C_2] 60
-[2019.03.09-10.27.18:261][862]LogBlueprintUserMessages: [FishOne_Blueprint_C_7] 90
-[2019.03.09-10.27.19:257][922]LogBlueprintUserMessages: [FishOne_Blueprint_C_12] 90
-[2019.03.09-10.27.19:358][928]LogSlate: Request Window 'LifeSimulator (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.03.09-10.27.19:384][928]LogSlate: Window 'LifeSimulator (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.03.09-10.27.19:385][928]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.09-10.27.19:394][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.09-10.27.19:394][928]LogEngine: All Windows Closed
-[2019.03.09-10.27.19:394][928]LogWindows: FPlatformMisc::RequestExit(0)
-[2019.03.09-10.27.20:142][929]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.03.09-10.27.20:142][929]LogExit: Preparing to exit.
-[2019.03.09-10.27.20:142][929]LogMoviePlayer: Shutting down movie player
-[2019.03.09-10.27.20:150][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.09-10.27.20:160][929]LogExit: Game engine shut down
-[2019.03.09-10.27.20:242][929]LogExit: Object subsystem successfully closed.
-[2019.03.09-10.27.20:292][929]LogD3D11RHI: Shutdown
-[2019.03.09-10.27.20:293][929]LogD3D11RHI: CleanupD3DDevice
-[2019.03.09-10.27.20:297][929]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.03.09-10.27.20:297][929]LogModuleManager: Shutting down and abandoning module AutomationController (194)
-[2019.03.09-10.27.20:297][929]LogModuleManager: Shutting down and abandoning module AutomationWorker (192)
-[2019.03.09-10.27.20:297][929]LogModuleManager: Shutting down and abandoning module Voice (190)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module AIModule (188)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module GameplayDebugger (187)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module NavigationSystem (185)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (182)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (180)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module WebMMedia (178)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (176)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (174)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (172)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module CharacterAI (170)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module SessionServices (168)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (166)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module MovieScene (164)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (162)
-[2019.03.09-10.27.20:298][929]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (160)
-[2019.03.09-10.27.20:299][929]LogModuleManager: Shutting down and abandoning module ProfilerService (158)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module TaskGraph (156)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module SteamVRController (154)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (152)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module OculusInput (150)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (148)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module EditableMesh (146)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (144)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module CableComponent (142)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module AudioCapture (140)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (138)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module AndroidPermission (136)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module MediaCompositing (134)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module LinearTimecode (132)
-[2019.03.09-10.27.20:318][929]LogModuleManager: Shutting down and abandoning module ImgMedia (130)
-[2019.03.09-10.27.20:319][929]LogModuleManager: Shutting down and abandoning module HTML5Networking (128)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (126)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module BackChannel (122)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module AppleVision (120)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module AppleImageUtils (118)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module VariantManagerContent (116)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (114)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module PhysXVehicles (112)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (110)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module ActorSequence (108)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module UdpMessaging (106)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module TcpMessaging (104)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module FacialAnimation (102)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module AISupportModule (98)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module Paper2D (96)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (94)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (92)
-[2019.03.09-10.27.20:320][929]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
-[2019.03.09-10.27.20:321][929]LogModuleManager: Shutting down and abandoning module Media (89)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module Overlay (80)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module UMG (78)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module MRMesh (72)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module Messaging (70)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module Networking (64)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module Core (62)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module InputCore (54)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module PhysXCooking (52)
-[2019.03.09-10.27.20:327][929]LogModuleManager: Shutting down and abandoning module SteamVR (50)
-[2019.03.09-10.27.20:328][929]LogHMD: Freeing OpenVRDLLHandle.
-[2019.03.09-10.27.20:328][929]LogModuleManager: Shutting down and abandoning module OculusHMD (48)
-[2019.03.09-10.27.20:328][929]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (46)
-[2019.03.09-10.27.20:328][929]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (44)
-[2019.03.09-10.27.20:328][929]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (40)
-[2019.03.09-10.27.20:328][929]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2019.03.09-10.27.20:331][929]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2019.03.09-10.27.20:332][929]LogModuleManager: Shutting down and abandoning module DatasmithContent (30)
-[2019.03.09-10.27.20:332][929]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.03.09-10.27.20:332][929]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.03.09-10.27.20:332][929]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.03.09-10.27.20:333][929]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.03.09-10.27.20:366][929]LogExit: Exiting.
-[2019.03.09-10.27.20:413][929]Log file closed, 03/09/19 14:27:20
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.09-15.55.42:574][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.09-15.55.42:574][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.09-15.55.42:578][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.09-15.55.42:578][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.09-15.55.42:579][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.09-15.55.42:580][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.09-15.55.42:580][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2019.03.09-15.55.42:580][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2019.03.09-15.55.42:587][  0]LogHAL: Display: Platform has ~ 8 GB [8587366400 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.09-15.55.42:587][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.09-15.55.42:588][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.09-15.55.42:588][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.09-15.55.42:588][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.09-15.55.42:589][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.09-15.55.42:590][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.09-15.55.42:590][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.09-15.55.42:591][  0]LogInit: Computer: DESKTOP-6CA0J82
+[2019.03.09-15.55.42:591][  0]LogInit: User: UD
+[2019.03.09-15.55.42:591][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.09-15.55.42:591][  0]LogInit: High frequency timer resolution =3.145889 MHz
+[2019.03.09-15.55.42:591][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.03.09-15.55.42:591][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2019.03.09-15.55.42:591][  0]LogMemory: Process Physical Memory: 54.38 MB used, 54.38 MB peak
+[2019.03.09-15.55.42:591][  0]LogMemory: Process Virtual Memory: 63.41 MB used, 63.41 MB peak
+[2019.03.09-15.55.42:591][  0]LogMemory: Physical Memory: 5758.51 MB used,  2431.04 MB free, 8189.55 MB total
+[2019.03.09-15.55.42:591][  0]LogMemory: Virtual Memory: 4434.33 MB used,  134213296.00 MB free, 134217728.00 MB total
+[2019.03.09-15.55.42:614][  0]LogInit: Using OS detected language (ru-RU).
+[2019.03.09-15.55.42:614][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.03.09-15.55.42:614][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2019.03.09-15.55.42:614][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2019.03.09-15.55.42:647][  0]LogStreaming: Display: Took  0.033s to InitEngineTextLocalization.
+[2019.03.09-15.55.42:673][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.09-15.55.42:673][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.09-15.55.42:677][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.09-15.55.42:678][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.09-15.55.42:780][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.09-15.55.42:780][  0]LogD3D11RHI:       4018/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.09-15.55.42:783][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.09-15.55.42:783][  0]LogD3D11RHI:       0/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.09-15.55.42:783][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.09-15.55.42:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.09-15.55.42:795][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.09-15.55.42:795][  0]LogWindows: EnumDisplayDevices:
+[2019.03.09-15.55.42:796][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.09-15.55.42:796][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.09-15.55.42:796][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.09-15.55.42:796][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.09-15.55.42:797][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.09-15.55.42:797][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.09-15.55.42:797][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
+[2019.03.09-15.55.42:797][  0]LogD3D11RHI:      Driver Date: 3-1-2019
+[2019.03.09-15.55.42:797][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.09-15.55.42:865][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.09-15.55.42:886][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global_SC and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
+[2019.03.09-15.55.42:937][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
+[2019.03.09-15.55.42:938][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
+[2019.03.09-15.55.42:939][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
+[2019.03.09-15.55.42:961][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.09-15.55.42:986][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.09-15.55.42:986][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.09-15.55.43:074][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator and no native library supported.
+[2019.03.09-15.55.43:074][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator_SC and no native library supported.
+[2019.03.09-15.55.43:074][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2019.03.09-15.55.43:074][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator and no native library supported.
+[2019.03.09-15.55.43:074][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator_SC and no native library supported.
+[2019.03.09-15.55.43:074][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2019.03.09-15.55.43:074][  0]LogRHI: Display: Failed to open default shader pipeline cache for LifeSimulator using shader platform 0.
+[2019.03.09-15.55.43:074][  0]LogRHI: Display: Failed to open default shader pipeline cache for LifeSimulator using shader platform 0.
+[2019.03.09-15.55.43:074][  0]LogInit: Using OS detected language (ru-RU).
+[2019.03.09-15.55.43:074][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.03.09-15.55.43:074][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2019.03.09-15.55.43:075][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2019.03.09-15.55.43:075][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
+[2019.03.09-15.55.43:100][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2019.03.09-15.55.43:286][  0]LogStreaming: Display: Flushing async loaders.
+[2019.03.09-15.55.43:298][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.012151 seconds
+[2019.03.09-15.55.43:300][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2019.03.09-15.55.43:317][  0]LogNetVersion: LifeSimulator 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1770999446)
+[2019.03.09-15.55.43:530][  0]LogMoviePlayer: Initializing movie player
+[2019.03.09-15.55.43:619][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.09-15.55.43:619][  0]LogOcInput: OculusInput pre-init called
+[2019.03.09-15.55.43:625][  0]LogUObjectArray: 35420 objects as part of root set at end of initial load.
+[2019.03.09-15.55.43:625][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2019.03.09-15.55.43:625][  0]LogUObjectAllocator: 5287488 out of 0 bytes used by permanent object pool.
+[2019.03.09-15.55.43:625][  0]LogUObjectArray: CloseDisregardForGC: 35420/35420 objects in disregard for GC pool
+[2019.03.09-15.55.43:703][  0]LogEngine: Initializing Engine...
+[2019.03.09-15.55.43:703][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.09-15.55.43:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.09-15.55.43:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.09-15.55.43:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.09-15.55.43:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.09-15.55.43:889][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.09-15.55.43:911][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.09-15.55.43:937][  0]LogInit: FAudioDevice initialized.
+[2019.03.09-15.55.43:949][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.09-15.55.43:949][  0]LogInit: Texture streaming: Enabled
+[2019.03.09-15.55.43:952][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.09-15.55.43:953][  0]LogInit: Display: Game Engine Initialized.
+[2019.03.09-15.55.43:953][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.09-15.55.43:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.09-15.55.43:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.09-15.55.43:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.09-15.55.43:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.09-15.55.43:971][  0]LogInit: Display: Starting Game.
+[2019.03.09-15.55.43:971][  0]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Name=Player
+[2019.03.09-15.55.44:060][  0]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default?Name=Player
+[2019.03.09-15.55.44:112][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.09-15.55.44:112][  0]LogLoad: Game class is 'GameModeBase'
+[2019.03.09-15.55.44:115][  0]LogWorld: Bringing World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.09-19.55.44
+[2019.03.09-15.55.44:115][  0]LogWorld: Bringing up level for play took: 0.002561
+[2019.03.09-15.55.44:119][  0]LogLoad: Took 0.058379 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2019.03.09-15.55.44:155][  0]LogLoad: (Engine Initialization) Total time: 2.01 seconds
+[2019.03.09-15.55.44:156][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2019.03.09-15.55.44:237][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.09-15.55.55:254][676]LogBlueprintUserMessages: [FishOne_Blueprint10] 90
+[2019.03.09-15.55.55:255][676]LogBlueprintUserMessages: [FishOne_Blueprint11] 90
+[2019.03.09-15.55.55:255][676]LogBlueprintUserMessages: [FishOne_Blueprint12] 90
+[2019.03.09-15.55.55:256][676]LogBlueprintUserMessages: [FishOne_Blueprint13] 90
+[2019.03.09-15.55.55:256][676]LogBlueprintUserMessages: [FishOne_Blueprint2] 90
+[2019.03.09-15.55.55:257][676]LogBlueprintUserMessages: [FishOne_Blueprint3] 90
+[2019.03.09-15.55.55:257][676]LogBlueprintUserMessages: [FishOne_Blueprint7] 90
+[2019.03.09-15.55.55:258][676]LogBlueprintUserMessages: [FishOne_Blueprint8] 90
+[2019.03.09-15.55.55:258][676]LogBlueprintUserMessages: [FishOne_Blueprint9] 90
+[2019.03.09-15.55.55:261][676]LogSlate: Took 0.000442 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2019.03.09-15.56.06:253][357]LogBlueprintUserMessages: [FishOne_Blueprint_C_2] 90
+[2019.03.09-15.56.06:254][357]LogBlueprintUserMessages: [FishOne_Blueprint_C_3] 90
+[2019.03.09-15.56.06:255][357]LogBlueprintUserMessages: [FishOne_Blueprint_C_5] 90
+[2019.03.09-15.56.06:255][357]LogBlueprintUserMessages: [FishOne_Blueprint_C_8] 150
+[2019.03.09-15.56.11:915][708]LogSlate: Request Window 'LifeSimulator (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.09-15.56.11:945][708]LogSlate: Window 'LifeSimulator (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.09-15.56.11:945][708]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.09-15.56.11:951][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.09-15.56.11:951][708]LogEngine: All Windows Closed
+[2019.03.09-15.56.11:951][708]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.03.09-15.56.12:735][709]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.09-15.56.12:735][709]LogExit: Preparing to exit.
+[2019.03.09-15.56.12:735][709]LogMoviePlayer: Shutting down movie player
+[2019.03.09-15.56.12:741][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.09-15.56.12:746][709]LogExit: Game engine shut down
+[2019.03.09-15.56.12:800][709]LogExit: Object subsystem successfully closed.
+[2019.03.09-15.56.12:809][709]LogD3D11RHI: Shutdown
+[2019.03.09-15.56.12:809][709]LogD3D11RHI: CleanupD3DDevice
+[2019.03.09-15.56.12:813][709]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module AutomationController (202)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module AutomationWorker (200)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module Voice (198)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module AIModule (196)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module GameplayDebugger (195)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module NavigationSystem (193)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (190)
+[2019.03.09-15.56.12:813][709]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (188)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module WebMMedia (186)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (184)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (182)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (180)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module CharacterAI (178)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module SessionServices (176)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (174)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module MovieScene (172)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (170)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (168)
+[2019.03.09-15.56.12:814][709]LogModuleManager: Shutting down and abandoning module ProfilerService (166)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module TaskGraph (164)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module SteamVRController (162)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (160)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module OculusInput (158)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (156)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module EditableMesh (154)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (152)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module CableComponent (150)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module AudioCapture (148)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (146)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module AndroidPermission (144)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module MediaCompositing (142)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module LinearTimecode (140)
+[2019.03.09-15.56.12:948][709]LogModuleManager: Shutting down and abandoning module ImgMedia (138)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module SocketIOClient (136)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (132)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module BackChannel (128)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module AppleVision (126)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module AppleImageUtils (124)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module VariantManagerContent (122)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (120)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module PhysXVehicles (118)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (116)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module ActorSequence (114)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module UdpMessaging (112)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module TcpMessaging (110)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module CoreUtility (108)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module SocketIOLib (106)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module SIOJson (104)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module FacialAnimation (102)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module AISupportModule (98)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module Paper2D (96)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (94)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (92)
+[2019.03.09-15.56.12:949][709]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2019.03.09-15.56.12:950][709]LogModuleManager: Shutting down and abandoning module Media (89)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module Overlay (80)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module UMG (78)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module MRMesh (72)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module Messaging (70)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module Networking (64)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module Core (62)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module InputCore (54)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module PhysXCooking (52)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module SteamVR (50)
+[2019.03.09-15.56.12:956][709]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module OculusHMD (48)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (46)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (44)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (40)
+[2019.03.09-15.56.12:956][709]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2019.03.09-15.56.12:983][709]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module DatasmithContent (30)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.09-15.56.12:984][709]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.09-15.56.12:986][709]LogExit: Exiting.
+[2019.03.09-15.56.12:996][709]Log file closed, 03/09/19 19:56:12

@@ -1,4 +1,4 @@
-Engine/Binaries/Win64/UE4Game.exe
+LifeSimulator/Binaries/Win64/LifeSimulator.exe
 Engine/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll
 Engine/Binaries/ThirdParty/Windows/DirectX/x64/WinPixEventRuntime.dll
 Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll
