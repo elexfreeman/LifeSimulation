@@ -12,3 +12,8 @@ Intermediate
 *.xcodeproj
 *.xcworkspace
 brainserver/node_modules
+Saved/Logs
+Saved/Crashes
+Saved/EditorCooked
+Saved/Backup
+Saved/Autosaves
