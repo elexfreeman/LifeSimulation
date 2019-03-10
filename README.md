@@ -3,7 +3,7 @@ UE4 life simulator
 
 Симуляция поведения простейших организмов
 
-Разные ветки - разные эксперементы
+**Разные ветки - разные эксперементы**
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/elexfreeman/LifeSimulation/master/Screens/2019-03-09_15-49-20.png)
 
