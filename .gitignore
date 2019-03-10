@@ -11,3 +11,4 @@ Intermediate
 *.suo
 *.xcodeproj
 *.xcworkspace
+brainserver/node_modules
