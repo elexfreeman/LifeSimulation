@@ -5,8 +5,10 @@ UE4 life simulator
 
 Разные ветки - разные эксперименты
 
+# Результаты эксперемента
+https://www.youtube.com/watch?v=Gqdt_4X8Avc
 
-![Image of Yaktocat](https://raw.githubusercontent.com/elexfreeman/LifeSimulation/master/Screens/2019-03-09_15-49-20.png)
+
 
 # Простейший организм
 
@@ -84,3 +86,6 @@ UE4 life simulator
 ### Посмертие
 - стадия трупа
 - если Energy меньше 1 объект уничтожается
+
+
+

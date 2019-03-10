@@ -1,0 +1,799 @@
+﻿Log file open, 03/10/19 22:20:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.305484
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +4:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin SocketIOClient
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.036s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-4350 Quad-Core Processor            , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:14:43
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_PROJECTS/LifeSimulator/Saved/StagedBuilds/WindowsNoEditor/LifeSimulator/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.10-18.20.02:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.10-18.20.02:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.10-18.20.02:167][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.10-18.20.02:167][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.10-18.20.02:168][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.10-18.20.02:169][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.10-18.20.02:169][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:169][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.10-18.20.02:169][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.10-18.20.02:169][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2019.03.10-18.20.02:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2019.03.10-18.20.02:176][  0]LogHAL: Display: Platform has ~ 8 GB [8587366400 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.10-18.20.02:176][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2019.03.10-18.20.02:176][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.10-18.20.02:176][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.10-18.20.02:189][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.10-18.20.02:189][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.10-18.20.02:190][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.10-18.20.02:191][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.10-18.20.02:191][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../LifeSimulator/Saved/Config/WindowsNoEditor/Engine.ini]
+[2019.03.10-18.20.02:191][  0]LogInit: Computer: DESKTOP-6CA0J82
+[2019.03.10-18.20.02:191][  0]LogInit: User: UD
+[2019.03.10-18.20.02:191][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.10-18.20.02:191][  0]LogInit: High frequency timer resolution =3.145889 MHz
+[2019.03.10-18.20.02:191][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.03.10-18.20.02:191][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2019.03.10-18.20.02:191][  0]LogMemory: Process Physical Memory: 54.28 MB used, 54.28 MB peak
+[2019.03.10-18.20.02:191][  0]LogMemory: Process Virtual Memory: 63.38 MB used, 63.38 MB peak
+[2019.03.10-18.20.02:191][  0]LogMemory: Physical Memory: 7523.88 MB used,  665.67 MB free, 8189.55 MB total
+[2019.03.10-18.20.02:191][  0]LogMemory: Virtual Memory: 4434.37 MB used,  134213296.00 MB free, 134217728.00 MB total
+[2019.03.10-18.20.02:217][  0]LogInit: Using OS detected language (ru-RU).
+[2019.03.10-18.20.02:217][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.03.10-18.20.02:217][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2019.03.10-18.20.02:217][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2019.03.10-18.20.02:250][  0]LogStreaming: Display: Took  0.034s to InitEngineTextLocalization.
+[2019.03.10-18.20.02:298][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.10-18.20.02:298][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.10-18.20.02:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.10-18.20.02:303][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.10-18.20.02:413][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.10-18.20.02:413][  0]LogD3D11RHI:       4018/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.10-18.20.02:416][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.10-18.20.02:416][  0]LogD3D11RHI:       0/0/4094 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.10-18.20.02:416][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.10-18.20.02:429][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.10-18.20.02:429][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.10-18.20.02:429][  0]LogWindows: EnumDisplayDevices:
+[2019.03.10-18.20.02:429][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.10-18.20.02:429][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.10-18.20.02:430][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.10-18.20.02:430][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.10-18.20.02:430][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.10-18.20.02:430][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.10-18.20.02:430][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
+[2019.03.10-18.20.02:430][  0]LogD3D11RHI:      Driver Date: 3-1-2019
+[2019.03.10-18.20.02:430][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.10-18.20.02:498][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.10-18.20.02:526][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.10-18.20.02:577][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global and no native library supported.
+[2019.03.10-18.20.02:577][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Global_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: Paper2D_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: CryptoKeys_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MeshEditor_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent and no native library supported.
+[2019.03.10-18.20.02:578][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: DatasmithContent_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: VariantManagerContent_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: MediaCompositing_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: OculusVR_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR and no native library supported.
+[2019.03.10-18.20.02:579][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: SteamVR_SC and no native library supported.
+[2019.03.10-18.20.02:616][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.10-18.20.02:641][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.10-18.20.02:641][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.10-18.20.02:733][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator and no native library supported.
+[2019.03.10-18.20.02:733][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator_SC and no native library supported.
+[2019.03.10-18.20.02:733][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2019.03.10-18.20.02:733][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator and no native library supported.
+[2019.03.10-18.20.02:733][  0]LogShaderLibrary: Display: Failed to load Shared Shader Library: LifeSimulator_SC and no native library supported.
+[2019.03.10-18.20.02:733][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2019.03.10-18.20.02:733][  0]LogRHI: Display: Failed to open default shader pipeline cache for LifeSimulator using shader platform 0.
+[2019.03.10-18.20.02:733][  0]LogRHI: Display: Failed to open default shader pipeline cache for LifeSimulator using shader platform 0.
+[2019.03.10-18.20.02:733][  0]LogInit: Using OS detected language (ru-RU).
+[2019.03.10-18.20.02:733][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.03.10-18.20.02:733][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2019.03.10-18.20.02:733][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2019.03.10-18.20.02:734][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
+[2019.03.10-18.20.02:804][  0]LogAssetRegistry: FAssetRegistry took 0.0691 seconds to start up
+[2019.03.10-18.20.03:461][  0]LogStreaming: Display: Flushing async loaders.
+[2019.03.10-18.20.03:519][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.036676 seconds
+[2019.03.10-18.20.03:618][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2019.03.10-18.20.04:050][  0]LogNetVersion: LifeSimulator 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1770999446)
+[2019.03.10-18.20.05:622][  0]LogMoviePlayer: Initializing movie player
+[2019.03.10-18.20.05:756][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.10-18.20.05:776][  0]LogOcInput: OculusInput pre-init called
+[2019.03.10-18.20.05:796][  0]LogUObjectArray: 35420 objects as part of root set at end of initial load.
+[2019.03.10-18.20.05:796][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2019.03.10-18.20.05:796][  0]LogUObjectAllocator: 5287488 out of 0 bytes used by permanent object pool.
+[2019.03.10-18.20.05:796][  0]LogUObjectArray: CloseDisregardForGC: 35420/35420 objects in disregard for GC pool
+[2019.03.10-18.20.05:933][  0]LogEngine: Initializing Engine...
+[2019.03.10-18.20.05:939][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.10-18.20.05:982][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.006 s
+[2019.03.10-18.20.05:982][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.10-18.20.05:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.10-18.20.05:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.10-18.20.06:201][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.10-18.20.06:277][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.10-18.20.06:311][  0]LogInit: FAudioDevice initialized.
+[2019.03.10-18.20.06:343][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.10-18.20.06:343][  0]LogInit: Texture streaming: Enabled
+[2019.03.10-18.20.06:669][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.20.06:707][  0]LogInit: Display: Game Engine Initialized.
+[2019.03.10-18.20.06:707][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.10-18.20.06:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.10-18.20.06:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.10-18.20.06:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.10-18.20.06:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.10-18.20.06:747][  0]LogInit: Display: Starting Game.
+[2019.03.10-18.20.06:756][  0]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default?Name=Player
+[2019.03.10-18.20.06:776][  0]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default?Name=Player
+[2019.03.10-18.20.07:236][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.10-18.20.07:257][  0]LogLoad: Game class is 'GameModeBase'
+[2019.03.10-18.20.07:376][  0]LogWorld: Bringing World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.03.10-22.20.07
+[2019.03.10-18.20.07:410][  0]LogWorld: Bringing up level for play took: 0.153237
+[2019.03.10-18.20.07:639][  0]LogLoad: Took 0.863192 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2019.03.10-18.20.07:956][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2019.03.10-18.20.07:956][  0]LogLoad: (Engine Initialization) Total time: 6.49 seconds
+[2019.03.10-18.20.08:451][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.10-18.20.38:088][809]LogBlueprintUserMessages: [FishOne_Blueprint17] 5
+[2019.03.10-18.20.38:148][809]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2019.03.10-18.20.55:515][878]LogBlueprintUserMessages: [FishOne_Blueprint_C_0] 5
+[2019.03.10-18.20.55:686][885]LogAudio: Warning: Waited 71.048279ms for audio thread.
+[2019.03.10-18.20.55:722][885]LogAudio: Warning: Waited 107.053047ms for audio thread.
+[2019.03.10-18.20.55:757][885]LogAudio: Warning: Waited 142.051102ms for audio thread.
+[2019.03.10-18.20.55:792][885]LogAudio: Warning: Waited 177.056152ms for audio thread.
+[2019.03.10-18.20.55:828][885]LogAudio: Warning: Waited 213.055832ms for audio thread.
+[2019.03.10-18.20.55:864][885]LogAudio: Warning: Waited 249.073959ms for audio thread.
+[2019.03.10-18.20.55:900][885]LogAudio: Warning: Waited 285.293274ms for audio thread.
+[2019.03.10-18.20.55:936][885]LogAudio: Warning: Waited 320.449646ms for audio thread.
+[2019.03.10-18.20.55:971][885]LogAudio: Warning: Waited 355.447723ms for audio thread.
+[2019.03.10-18.20.56:006][885]LogAudio: Warning: Waited 390.457184ms for audio thread.
+[2019.03.10-18.20.56:042][885]LogAudio: Warning: Waited 426.451813ms for audio thread.
+[2019.03.10-18.20.56:077][885]LogAudio: Warning: Waited 461.453339ms for audio thread.
+[2019.03.10-18.20.56:113][885]LogAudio: Warning: Waited 497.448883ms for audio thread.
+[2019.03.10-18.20.56:148][885]LogAudio: Warning: Waited 532.447876ms for audio thread.
+[2019.03.10-18.20.56:184][885]LogAudio: Warning: Waited 568.450439ms for audio thread.
+[2019.03.10-18.20.56:220][885]LogAudio: Warning: Waited 604.459351ms for audio thread.
+[2019.03.10-18.20.56:256][885]LogAudio: Warning: Waited 640.472717ms for audio thread.
+[2019.03.10-18.20.56:291][885]LogAudio: Warning: Waited 675.443420ms for audio thread.
+[2019.03.10-18.20.56:326][885]LogAudio: Warning: Waited 710.481506ms for audio thread.
+[2019.03.10-18.20.56:362][885]LogAudio: Warning: Waited 746.447815ms for audio thread.
+[2019.03.10-18.20.56:397][885]LogAudio: Warning: Waited 781.480835ms for audio thread.
+[2019.03.10-18.20.56:433][885]LogAudio: Warning: Waited 817.448730ms for audio thread.
+[2019.03.10-18.20.56:468][885]LogAudio: Warning: Waited 852.445557ms for audio thread.
+[2019.03.10-18.20.56:503][885]LogAudio: Warning: Waited 887.457886ms for audio thread.
+[2019.03.10-18.20.56:539][885]LogAudio: Warning: Waited 923.447998ms for audio thread.
+[2019.03.10-18.20.56:575][885]LogAudio: Warning: Waited 959.441650ms for audio thread.
+[2019.03.10-18.20.56:610][885]LogAudio: Warning: Waited 994.464233ms for audio thread.
+[2019.03.10-18.20.56:646][885]LogAudio: Warning: Waited 1030.459106ms for audio thread.
+[2019.03.10-18.20.56:682][885]LogAudio: Warning: Waited 1066.446411ms for audio thread.
+[2019.03.10-18.20.56:717][885]LogAudio: Warning: Waited 1101.486450ms for audio thread.
+[2019.03.10-18.20.56:753][885]LogAudio: Warning: Waited 1137.440674ms for audio thread.
+[2019.03.10-18.20.56:789][885]LogAudio: Warning: Waited 1173.446655ms for audio thread.
+[2019.03.10-18.20.56:825][885]LogAudio: Warning: Waited 1209.440552ms for audio thread.
+[2019.03.10-18.20.56:861][885]LogAudio: Warning: Waited 1245.438110ms for audio thread.
+[2019.03.10-18.20.56:897][885]LogAudio: Warning: Waited 1281.441284ms for audio thread.
+[2019.03.10-18.20.56:933][885]LogAudio: Warning: Waited 1317.444458ms for audio thread.
+[2019.03.10-18.20.56:969][885]LogAudio: Warning: Waited 1353.671631ms for audio thread.
+[2019.03.10-18.20.57:005][885]LogAudio: Warning: Waited 1389.437988ms for audio thread.
+[2019.03.10-18.20.57:040][885]LogAudio: Warning: Waited 1424.437378ms for audio thread.
+[2019.03.10-18.20.57:076][885]LogAudio: Warning: Waited 1460.495972ms for audio thread.
+[2019.03.10-18.20.57:111][885]LogAudio: Warning: Waited 1495.443115ms for audio thread.
+[2019.03.10-18.20.57:147][885]LogAudio: Warning: Waited 1531.567383ms for audio thread.
+[2019.03.10-18.20.57:183][885]LogAudio: Warning: Waited 1567.447510ms for audio thread.
+[2019.03.10-18.20.57:219][885]LogAudio: Warning: Waited 1603.437988ms for audio thread.
+[2019.03.10-18.20.57:254][885]LogAudio: Warning: Waited 1638.435181ms for audio thread.
+[2019.03.10-18.20.57:290][885]LogAudio: Warning: Waited 1674.461792ms for audio thread.
+[2019.03.10-18.20.57:325][885]LogAudio: Warning: Waited 1709.469116ms for audio thread.
+[2019.03.10-18.20.57:361][885]LogAudio: Warning: Waited 1745.445313ms for audio thread.
+[2019.03.10-18.20.57:397][885]LogAudio: Warning: Waited 1781.434204ms for audio thread.
+[2019.03.10-18.20.57:433][885]LogAudio: Warning: Waited 1817.715210ms for audio thread.
+[2019.03.10-18.20.57:469][885]LogAudio: Warning: Waited 1853.467407ms for audio thread.
+[2019.03.10-18.20.57:505][885]LogAudio: Warning: Waited 1889.604492ms for audio thread.
+[2019.03.10-18.20.57:540][885]LogAudio: Warning: Waited 1924.429932ms for audio thread.
+[2019.03.10-18.20.57:576][885]LogAudio: Warning: Waited 1960.431763ms for audio thread.
+[2019.03.10-18.20.57:611][885]LogAudio: Warning: Waited 1995.437256ms for audio thread.
+[2019.03.10-18.20.57:646][885]LogAudio: Warning: Waited 2030.436523ms for audio thread.
+[2019.03.10-18.20.57:682][885]LogAudio: Warning: Waited 2066.442871ms for audio thread.
+[2019.03.10-18.20.57:717][885]LogAudio: Warning: Waited 2101.456787ms for audio thread.
+[2019.03.10-18.20.57:753][885]LogAudio: Warning: Waited 2137.468750ms for audio thread.
+[2019.03.10-18.20.57:788][885]LogAudio: Warning: Waited 2172.439453ms for audio thread.
+[2019.03.10-18.20.57:824][885]LogAudio: Warning: Waited 2208.449219ms for audio thread.
+[2019.03.10-18.20.57:860][885]LogAudio: Warning: Waited 2244.542480ms for audio thread.
+[2019.03.10-18.20.57:895][885]LogAudio: Warning: Waited 2279.424561ms for audio thread.
+[2019.03.10-18.20.57:930][885]LogAudio: Warning: Waited 2314.591797ms for audio thread.
+[2019.03.10-18.20.57:966][885]LogAudio: Warning: Waited 2350.590576ms for audio thread.
+[2019.03.10-18.20.58:002][885]LogAudio: Warning: Waited 2386.587402ms for audio thread.
+[2019.03.10-18.20.58:038][885]LogAudio: Warning: Waited 2422.621582ms for audio thread.
+[2019.03.10-18.20.58:074][885]LogAudio: Warning: Waited 2458.589355ms for audio thread.
+[2019.03.10-18.20.58:110][885]LogAudio: Warning: Waited 2494.608398ms for audio thread.
+[2019.03.10-18.20.58:146][885]LogAudio: Warning: Waited 2530.698975ms for audio thread.
+[2019.03.10-18.20.58:181][885]LogAudio: Warning: Waited 2565.597412ms for audio thread.
+[2019.03.10-18.20.58:216][885]LogAudio: Warning: Waited 2600.589355ms for audio thread.
+[2019.03.10-18.20.58:252][885]LogAudio: Warning: Waited 2636.653076ms for audio thread.
+[2019.03.10-18.20.58:288][885]LogAudio: Warning: Waited 2672.593994ms for audio thread.
+[2019.03.10-18.20.58:323][885]LogAudio: Warning: Waited 2707.584473ms for audio thread.
+[2019.03.10-18.20.58:359][885]LogAudio: Warning: Waited 2743.587402ms for audio thread.
+[2019.03.10-18.20.58:395][885]LogAudio: Warning: Waited 2779.578857ms for audio thread.
+[2019.03.10-18.20.58:430][885]LogAudio: Warning: Waited 2814.605225ms for audio thread.
+[2019.03.10-18.20.58:466][885]LogAudio: Warning: Waited 2850.592773ms for audio thread.
+[2019.03.10-18.20.58:501][885]LogAudio: Warning: Waited 2885.578613ms for audio thread.
+[2019.03.10-18.20.58:536][885]LogAudio: Warning: Waited 2920.585205ms for audio thread.
+[2019.03.10-18.20.58:572][885]LogAudio: Warning: Waited 2956.584229ms for audio thread.
+[2019.03.10-18.20.58:607][885]LogAudio: Warning: Waited 2991.578857ms for audio thread.
+[2019.03.10-18.20.58:643][885]LogAudio: Warning: Waited 3027.579102ms for audio thread.
+[2019.03.10-18.20.58:678][885]LogAudio: Warning: Waited 3062.583252ms for audio thread.
+[2019.03.10-18.20.58:714][885]LogAudio: Warning: Waited 3098.583008ms for audio thread.
+[2019.03.10-18.20.58:750][885]LogAudio: Warning: Waited 3134.575684ms for audio thread.
+[2019.03.10-18.20.58:786][885]LogAudio: Warning: Waited 3170.588867ms for audio thread.
+[2019.03.10-18.20.58:821][885]LogAudio: Warning: Waited 3205.582275ms for audio thread.
+[2019.03.10-18.20.58:857][885]LogAudio: Warning: Waited 3241.677002ms for audio thread.
+[2019.03.10-18.20.58:893][885]LogAudio: Warning: Waited 3277.578369ms for audio thread.
+[2019.03.10-18.20.58:928][885]LogAudio: Warning: Waited 3312.579346ms for audio thread.
+[2019.03.10-18.20.58:964][885]LogAudio: Warning: Waited 3348.669189ms for audio thread.
+[2019.03.10-18.20.59:000][885]LogAudio: Warning: Waited 3384.577393ms for audio thread.
+[2019.03.10-18.20.59:036][885]LogAudio: Warning: Waited 3420.584717ms for audio thread.
+[2019.03.10-18.20.59:071][885]LogAudio: Warning: Waited 3455.579102ms for audio thread.
+[2019.03.10-18.20.59:106][885]LogAudio: Warning: Waited 3490.577637ms for audio thread.
+[2019.03.10-18.20.59:142][885]LogAudio: Warning: Waited 3526.578613ms for audio thread.
+[2019.03.10-18.20.59:178][885]LogAudio: Warning: Waited 3562.584717ms for audio thread.
+[2019.03.10-18.20.59:213][885]LogAudio: Warning: Waited 3597.576172ms for audio thread.
+[2019.03.10-18.20.59:249][885]LogAudio: Warning: Waited 3633.595703ms for audio thread.
+[2019.03.10-18.20.59:284][885]LogAudio: Warning: Waited 3668.605225ms for audio thread.
+[2019.03.10-18.20.59:320][885]LogAudio: Warning: Waited 3704.579590ms for audio thread.
+[2019.03.10-18.20.59:356][885]LogAudio: Warning: Waited 3740.659180ms for audio thread.
+[2019.03.10-18.20.59:392][885]LogAudio: Warning: Waited 3776.574463ms for audio thread.
+[2019.03.10-18.20.59:428][885]LogAudio: Warning: Waited 3812.657715ms for audio thread.
+[2019.03.10-18.20.59:464][885]LogAudio: Warning: Waited 3848.566650ms for audio thread.
+[2019.03.10-18.20.59:499][885]LogAudio: Warning: Waited 3883.574463ms for audio thread.
+[2019.03.10-18.20.59:535][885]LogAudio: Warning: Waited 3919.570801ms for audio thread.
+[2019.03.10-18.20.59:571][885]LogAudio: Warning: Waited 3955.567871ms for audio thread.
+[2019.03.10-18.20.59:606][885]LogAudio: Warning: Waited 3990.577881ms for audio thread.
+[2019.03.10-18.20.59:642][885]LogAudio: Warning: Waited 4026.572266ms for audio thread.
+[2019.03.10-18.20.59:678][885]LogAudio: Warning: Waited 4062.570068ms for audio thread.
+[2019.03.10-18.20.59:713][885]LogAudio: Warning: Waited 4097.572266ms for audio thread.
+[2019.03.10-18.20.59:749][885]LogAudio: Warning: Waited 4133.570801ms for audio thread.
+[2019.03.10-18.20.59:785][885]LogAudio: Warning: Waited 4169.566406ms for audio thread.
+[2019.03.10-18.20.59:820][885]LogAudio: Warning: Waited 4204.572266ms for audio thread.
+[2019.03.10-18.20.59:856][885]LogAudio: Warning: Waited 4240.562500ms for audio thread.
+[2019.03.10-18.20.59:891][885]LogAudio: Warning: Waited 4275.562500ms for audio thread.
+[2019.03.10-18.20.59:926][885]LogAudio: Warning: Waited 4310.570801ms for audio thread.
+[2019.03.10-18.20.59:962][885]LogAudio: Warning: Waited 4346.567871ms for audio thread.
+[2019.03.10-18.20.59:998][885]LogAudio: Warning: Waited 4382.579102ms for audio thread.
+[2019.03.10-18.21.00:034][885]LogAudio: Warning: Waited 4418.629883ms for audio thread.
+[2019.03.10-18.21.00:069][885]LogAudio: Warning: Waited 4453.565430ms for audio thread.
+[2019.03.10-18.21.00:105][885]LogAudio: Warning: Waited 4489.564453ms for audio thread.
+[2019.03.10-18.21.00:141][885]LogAudio: Warning: Waited 4525.570801ms for audio thread.
+[2019.03.10-18.21.00:177][885]LogAudio: Warning: Waited 4561.561523ms for audio thread.
+[2019.03.10-18.21.00:212][885]LogAudio: Warning: Waited 4596.566406ms for audio thread.
+[2019.03.10-18.21.00:248][885]LogAudio: Warning: Waited 4632.580078ms for audio thread.
+[2019.03.10-18.21.00:284][885]LogAudio: Warning: Waited 4668.562012ms for audio thread.
+[2019.03.10-18.21.00:319][885]LogAudio: Warning: Waited 4703.557129ms for audio thread.
+[2019.03.10-18.21.00:355][885]LogAudio: Warning: Waited 4739.568359ms for audio thread.
+[2019.03.10-18.21.00:390][885]LogAudio: Warning: Waited 4774.572754ms for audio thread.
+[2019.03.10-18.21.00:425][885]LogAudio: Warning: Waited 4809.583984ms for audio thread.
+[2019.03.10-18.21.00:461][885]LogAudio: Warning: Waited 4845.558594ms for audio thread.
+[2019.03.10-18.21.00:496][885]LogAudio: Warning: Waited 4880.565430ms for audio thread.
+[2019.03.10-18.21.00:532][885]LogAudio: Warning: Waited 4916.561035ms for audio thread.
+[2019.03.10-18.21.00:568][885]LogAudio: Warning: Waited 4952.571289ms for audio thread.
+[2019.03.10-18.21.00:603][885]LogAudio: Warning: Waited 4987.566895ms for audio thread.
+[2019.03.10-18.21.00:638][885]LogAudio: Warning: Waited 5022.562988ms for audio thread.
+[2019.03.10-18.21.00:674][885]LogAudio: Warning: Waited 5058.566895ms for audio thread.
+[2019.03.10-18.21.00:710][885]LogAudio: Warning: Waited 5094.553711ms for audio thread.
+[2019.03.10-18.21.00:745][885]LogAudio: Warning: Waited 5129.561035ms for audio thread.
+[2019.03.10-18.21.00:781][885]LogAudio: Warning: Waited 5165.553223ms for audio thread.
+[2019.03.10-18.21.00:817][885]LogAudio: Warning: Waited 5201.576172ms for audio thread.
+[2019.03.10-18.21.00:853][885]LogAudio: Warning: Waited 5237.555176ms for audio thread.
+[2019.03.10-18.21.00:889][885]LogAudio: Warning: Waited 5273.583984ms for audio thread.
+[2019.03.10-18.21.00:925][885]LogAudio: Warning: Waited 5309.577637ms for audio thread.
+[2019.03.10-18.21.00:961][885]LogAudio: Warning: Waited 5345.553711ms for audio thread.
+[2019.03.10-18.21.00:997][885]LogAudio: Warning: Waited 5381.551758ms for audio thread.
+[2019.03.10-18.21.01:032][885]LogAudio: Warning: Waited 5416.549316ms for audio thread.
+[2019.03.10-18.21.01:067][885]LogAudio: Warning: Waited 5451.558105ms for audio thread.
+[2019.03.10-18.21.01:103][885]LogAudio: Warning: Waited 5487.604004ms for audio thread.
+[2019.03.10-18.21.01:139][885]LogAudio: Warning: Waited 5523.579590ms for audio thread.
+[2019.03.10-18.21.01:174][885]LogAudio: Warning: Waited 5558.662598ms for audio thread.
+[2019.03.10-18.21.01:210][885]LogAudio: Warning: Waited 5594.564453ms for audio thread.
+[2019.03.10-18.21.01:246][885]LogAudio: Warning: Waited 5630.546387ms for audio thread.
+[2019.03.10-18.21.01:282][885]LogAudio: Warning: Waited 5666.547852ms for audio thread.
+[2019.03.10-18.21.01:317][885]LogAudio: Warning: Waited 5701.553711ms for audio thread.
+[2019.03.10-18.21.01:352][885]LogAudio: Warning: Waited 5736.564453ms for audio thread.
+[2019.03.10-18.21.01:388][885]LogAudio: Warning: Waited 5772.567383ms for audio thread.
+[2019.03.10-18.21.01:424][885]LogAudio: Warning: Waited 5808.552246ms for audio thread.
+[2019.03.10-18.21.01:460][885]LogAudio: Warning: Waited 5844.552246ms for audio thread.
+[2019.03.10-18.21.01:495][885]LogAudio: Warning: Waited 5879.564453ms for audio thread.
+[2019.03.10-18.21.01:530][885]LogAudio: Warning: Waited 5914.553223ms for audio thread.
+[2019.03.10-18.21.01:566][885]LogAudio: Warning: Waited 5950.564941ms for audio thread.
+[2019.03.10-18.21.01:602][885]LogAudio: Warning: Waited 5986.563477ms for audio thread.
+[2019.03.10-18.21.01:638][885]LogAudio: Warning: Waited 6022.544922ms for audio thread.
+[2019.03.10-18.21.01:674][885]LogAudio: Warning: Waited 6058.547852ms for audio thread.
+[2019.03.10-18.21.01:709][885]LogAudio: Warning: Waited 6093.561523ms for audio thread.
+[2019.03.10-18.21.01:745][885]LogAudio: Warning: Waited 6129.542480ms for audio thread.
+[2019.03.10-18.21.01:780][885]LogAudio: Warning: Waited 6164.548828ms for audio thread.
+[2019.03.10-18.21.01:816][885]LogAudio: Warning: Waited 6200.542480ms for audio thread.
+[2019.03.10-18.21.01:852][885]LogAudio: Warning: Waited 6236.544434ms for audio thread.
+[2019.03.10-18.21.01:888][885]LogAudio: Warning: Waited 6272.547363ms for audio thread.
+[2019.03.10-18.21.01:924][885]LogAudio: Warning: Waited 6308.541992ms for audio thread.
+[2019.03.10-18.21.01:959][885]LogAudio: Warning: Waited 6343.546875ms for audio thread.
+[2019.03.10-18.21.01:995][885]LogAudio: Warning: Waited 6379.542969ms for audio thread.
+[2019.03.10-18.21.02:031][885]LogAudio: Warning: Waited 6415.544922ms for audio thread.
+[2019.03.10-18.21.02:066][885]LogAudio: Warning: Waited 6450.552734ms for audio thread.
+[2019.03.10-18.21.02:102][885]LogAudio: Warning: Waited 6486.540039ms for audio thread.
+[2019.03.10-18.21.02:138][885]LogAudio: Warning: Waited 6522.546387ms for audio thread.
+[2019.03.10-18.21.02:173][885]LogAudio: Warning: Waited 6557.547363ms for audio thread.
+[2019.03.10-18.21.02:209][885]LogAudio: Warning: Waited 6593.564941ms for audio thread.
+[2019.03.10-18.21.02:244][885]LogAudio: Warning: Waited 6628.540527ms for audio thread.
+[2019.03.10-18.21.02:280][885]LogAudio: Warning: Waited 6664.562500ms for audio thread.
+[2019.03.10-18.21.02:315][885]LogAudio: Warning: Waited 6699.543945ms for audio thread.
+[2019.03.10-18.21.02:351][885]LogAudio: Warning: Waited 6735.558105ms for audio thread.
+[2019.03.10-18.21.02:386][885]LogAudio: Warning: Waited 6770.549805ms for audio thread.
+[2019.03.10-18.21.02:422][885]LogAudio: Warning: Waited 6806.542969ms for audio thread.
+[2019.03.10-18.21.02:458][885]LogAudio: Warning: Waited 6842.557129ms for audio thread.
+[2019.03.10-18.21.02:493][885]LogAudio: Warning: Waited 6877.541504ms for audio thread.
+[2019.03.10-18.21.02:529][885]LogAudio: Warning: Waited 6913.548828ms for audio thread.
+[2019.03.10-18.21.02:564][885]LogAudio: Warning: Waited 6948.539551ms for audio thread.
+[2019.03.10-18.21.02:600][885]LogAudio: Warning: Waited 6984.555176ms for audio thread.
+[2019.03.10-18.21.02:635][885]LogAudio: Warning: Waited 7019.623047ms for audio thread.
+[2019.03.10-18.21.02:670][885]LogAudio: Warning: Waited 7054.538574ms for audio thread.
+[2019.03.10-18.21.02:706][885]LogAudio: Warning: Waited 7090.535156ms for audio thread.
+[2019.03.10-18.21.02:742][885]LogAudio: Warning: Waited 7126.536133ms for audio thread.
+[2019.03.10-18.21.02:778][885]LogAudio: Warning: Waited 7162.540527ms for audio thread.
+[2019.03.10-18.21.02:813][885]LogAudio: Warning: Waited 7197.531738ms for audio thread.
+[2019.03.10-18.21.02:848][885]LogAudio: Warning: Waited 7232.539063ms for audio thread.
+[2019.03.10-18.21.02:884][885]LogAudio: Warning: Waited 7268.537109ms for audio thread.
+[2019.03.10-18.21.02:920][885]LogAudio: Warning: Waited 7304.538574ms for audio thread.
+[2019.03.10-18.21.02:956][885]LogAudio: Warning: Waited 7340.536621ms for audio thread.
+[2019.03.10-18.21.02:992][885]LogAudio: Warning: Waited 7376.533691ms for audio thread.
+[2019.03.10-18.21.03:001][885]LogAudio: Warning: Waited 7385.652832ms for audio thread.
+[2019.03.10-18.21.05:813][ 50]LogAudio: Warning: Waited 71.621414ms for audio thread.
+[2019.03.10-18.21.05:848][ 50]LogAudio: Warning: Waited 106.643623ms for audio thread.
+[2019.03.10-18.21.05:884][ 50]LogAudio: Warning: Waited 142.608017ms for audio thread.
+[2019.03.10-18.21.05:901][ 50]LogAudio: Warning: Waited 159.639450ms for audio thread.
+[2019.03.10-18.21.07:134][123]LogAudio: Warning: Waited 70.068268ms for audio thread.
+[2019.03.10-18.21.07:170][123]LogAudio: Warning: Waited 106.055870ms for audio thread.
+[2019.03.10-18.21.07:206][123]LogAudio: Warning: Waited 142.062225ms for audio thread.
+[2019.03.10-18.21.07:242][123]LogAudio: Warning: Waited 178.058731ms for audio thread.
+[2019.03.10-18.21.07:278][123]LogAudio: Warning: Waited 214.054916ms for audio thread.
+[2019.03.10-18.21.07:313][123]LogAudio: Warning: Waited 249.056793ms for audio thread.
+[2019.03.10-18.21.07:348][123]LogAudio: Warning: Waited 284.060577ms for audio thread.
+[2019.03.10-18.21.07:384][123]LogAudio: Warning: Waited 320.071381ms for audio thread.
+[2019.03.10-18.21.07:420][123]LogAudio: Warning: Waited 356.060577ms for audio thread.
+[2019.03.10-18.21.07:455][123]LogAudio: Warning: Waited 391.058624ms for audio thread.
+[2019.03.10-18.21.07:471][123]LogAudio: Warning: Waited 407.593231ms for audio thread.
+[2019.03.10-18.21.12:708][437]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.10-18.21.12:709][437]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.10-18.21.14:588][551]LogSlate: Request Window 'LifeSimulator (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.10-18.21.14:626][551]LogSlate: Window 'LifeSimulator (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.10-18.21.14:636][551]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.10-18.21.14:670][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.21.14:670][551]LogEngine: All Windows Closed
+[2019.03.10-18.21.14:675][551]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.03.10-18.21.15:061][552]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.10-18.21.15:061][552]LogExit: Preparing to exit.
+[2019.03.10-18.21.15:062][552]LogMoviePlayer: Shutting down movie player
+[2019.03.10-18.21.15:272][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.10-18.21.15:362][552]LogExit: Game engine shut down
+[2019.03.10-18.21.15:820][552]LogExit: Object subsystem successfully closed.
+[2019.03.10-18.21.15:892][552]LogD3D11RHI: Shutdown
+[2019.03.10-18.21.15:892][552]LogD3D11RHI: CleanupD3DDevice
+[2019.03.10-18.21.15:915][552]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.10-18.21.15:925][552]LogModuleManager: Shutting down and abandoning module AutomationController (202)
+[2019.03.10-18.21.15:936][552]LogModuleManager: Shutting down and abandoning module AutomationWorker (200)
+[2019.03.10-18.21.15:941][552]LogModuleManager: Shutting down and abandoning module Voice (198)
+[2019.03.10-18.21.15:941][552]LogModuleManager: Shutting down and abandoning module AIModule (196)
+[2019.03.10-18.21.15:945][552]LogModuleManager: Shutting down and abandoning module GameplayDebugger (195)
+[2019.03.10-18.21.15:945][552]LogModuleManager: Shutting down and abandoning module NavigationSystem (193)
+[2019.03.10-18.21.15:945][552]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (190)
+[2019.03.10-18.21.15:945][552]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (188)
+[2019.03.10-18.21.15:945][552]LogModuleManager: Shutting down and abandoning module WebMMedia (186)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (184)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (182)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (180)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module CharacterAI (178)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module SessionServices (176)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (174)
+[2019.03.10-18.21.15:946][552]LogModuleManager: Shutting down and abandoning module MovieScene (172)
+[2019.03.10-18.21.15:950][552]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (170)
+[2019.03.10-18.21.15:950][552]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (168)
+[2019.03.10-18.21.15:951][552]LogModuleManager: Shutting down and abandoning module ProfilerService (166)
+[2019.03.10-18.21.16:200][552]LogModuleManager: Shutting down and abandoning module TaskGraph (164)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module SteamVRController (162)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (160)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module OculusInput (158)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (156)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module EditableMesh (154)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (152)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module CableComponent (150)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module AudioCapture (148)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (146)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module AndroidPermission (144)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module MediaCompositing (142)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module LinearTimecode (140)
+[2019.03.10-18.21.16:210][552]LogModuleManager: Shutting down and abandoning module ImgMedia (138)
+[2019.03.10-18.21.16:211][552]LogModuleManager: Shutting down and abandoning module SocketIOClient (136)
+[2019.03.10-18.21.16:211][552]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
+[2019.03.10-18.21.16:211][552]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (132)
+[2019.03.10-18.21.16:211][552]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module BackChannel (128)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module AppleVision (126)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module AppleImageUtils (124)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module VariantManagerContent (122)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (120)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module PhysXVehicles (118)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (116)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module ActorSequence (114)
+[2019.03.10-18.21.16:212][552]LogModuleManager: Shutting down and abandoning module UdpMessaging (112)
+[2019.03.10-18.21.16:214][552]LogModuleManager: Shutting down and abandoning module TcpMessaging (110)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module CoreUtility (108)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module SocketIOLib (106)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module SIOJson (104)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module FacialAnimation (102)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (100)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module AISupportModule (98)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module Paper2D (96)
+[2019.03.10-18.21.16:221][552]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (94)
+[2019.03.10-18.21.16:222][552]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (92)
+[2019.03.10-18.21.16:222][552]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2019.03.10-18.21.16:223][552]LogModuleManager: Shutting down and abandoning module Media (89)
+[2019.03.10-18.21.16:229][552]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
+[2019.03.10-18.21.16:229][552]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
+[2019.03.10-18.21.16:242][552]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
+[2019.03.10-18.21.16:242][552]LogModuleManager: Shutting down and abandoning module Overlay (80)
+[2019.03.10-18.21.16:242][552]LogModuleManager: Shutting down and abandoning module UMG (78)
+[2019.03.10-18.21.16:242][552]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module MRMesh (72)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module Messaging (70)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module Networking (64)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module Core (62)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module InputCore (54)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module PhysXCooking (52)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module SteamVR (50)
+[2019.03.10-18.21.16:276][552]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module OculusHMD (48)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (46)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (44)
+[2019.03.10-18.21.16:276][552]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (40)
+[2019.03.10-18.21.16:282][552]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2019.03.10-18.21.16:325][552]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2019.03.10-18.21.16:326][552]LogModuleManager: Shutting down and abandoning module DatasmithContent (30)
+[2019.03.10-18.21.16:326][552]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.10-18.21.16:326][552]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.10-18.21.16:326][552]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.10-18.21.16:337][552]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.10-18.21.16:392][552]LogExit: Exiting.
+[2019.03.10-18.21.16:404][552]Log file closed, 03/10/19 22:21:16
