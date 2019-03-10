@@ -1,6 +1,6 @@
 # LifeSimulation
 UE4 life simulator
-
+## 003-make-plants
 Симуляция поведения простейших организмов
 
 Разные ветки - разные эксперименты
@@ -56,6 +56,7 @@ https://www.youtube.com/watch?v=Gqdt_4X8Avc
 
 
 # Растение (seaweed)
+![003-make-plants](https://raw.githubusercontent.com/elexfreeman/LifeSimulation/003-make-plants/Screens/2019-03-10_22-49-48.png)
 ## Параметры организма
 * Name - Имя уникальный идентификатор
 * Parent - родитель
